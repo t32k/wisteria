@@ -35,7 +35,8 @@ body {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #673AB7; }
+  color: #673AB7;
+text-decoration: none}
 a:hover {
   color: #6200EA; }
 
@@ -46,8 +47,14 @@ a:hover {
   list-style: disc inside; }
 .ol {
   list-style: decimal inside; }
-.ul > li, .ol > li {
+.ul li, .ol li {
   display: list-item;
+}
+.ul .ul, .ul .ol, .ol .ul, .ol .ol {
+  margin-left: 2rem;
+}
+.ul .ul {
+  list-style-type: circle;
 }
 
 /* Tables
@@ -89,6 +96,19 @@ code:before {
   content: "\00a0";
 }
 
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.btn {
+  display: inline-block;
+  border: 0;
+  background: #651FFF;
+  border-radius: .4rem;
+  padding: 0 1em;
+  color: #fff;
+  text-align: center;
+  line-height: 4.2rem; }
+
+
 /* Horizontal Rule
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hr {
@@ -99,30 +119,30 @@ code:before {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-mn { margin: 0 !important;}
+
 .u-mtn { margin-top: 0 !important;}
-.u-mts { margin-top: .5rem !important;}
+.u-mts { margin-top: .4rem !important;}
 .u-mtm { margin-top: 1rem !important;}
 .u-mtl { margin-top: 2rem !important;}
 .u-mtx { margin-top: 3rem !important;}
 .u-mbn { margin-bottom: 0 !important;}
-.u-mbs { margin-bottom: .5rem !important;}
+.u-mbs { margin-bottom: .4rem !important;}
 .u-mbm { margin-bottom: 1rem !important;}
 .u-mbl { margin-bottom: 2rem !important;}
 .u-mbx { margin-bottom: 3rem !important;}
+.u-mn { margin: 0 !important;}
 
 .u-ptn { padding-top: 0 !important;}
-.u-pts { padding-top: .5rem !important;}
+.u-pts { padding-top: .4rem !important;}
 .u-ptm { padding-top: 1rem !important;}
 .u-ptl { padding-top: 2rem !important;}
 .u-ptx { padding-top: 3rem !important;}
 .u-pbn { padding-bottom: 0 !important;}
-.u-pbs { padding-bottom: .5rem !important;}
+.u-pbs { padding-bottom: .4rem !important;}
 .u-pbm { padding-bottom: 1rem !important;}
 .u-pbl { padding-bottom: 2rem !important;}
 .u-pbx { padding-bottom: 3rem !important;}
-
-
+.u-pn { padding: 0 !important; }
 
 
 /* Utilities

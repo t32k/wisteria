@@ -7,24 +7,6 @@
 */
 
 
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -35,7 +17,7 @@ body {
   font-size: 1.6em;
   line-height: 1.8;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgba(0,0,0,.87);
 }
 
@@ -79,6 +61,14 @@ a:hover {
   padding: 1rem;
   border: 1px solid rgba(0,0,0,.12);
 }
+
+/* Blockquote
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bq {
+  padding: 1rem 2rem;
+  border-left: .4rem solid rgba(0,0,0,.12);
+}
+
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

@@ -176,20 +176,6 @@ label > .label-body {
   font-weight: normal; }
 
 
-/* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.ul {
-  list-style: circle inside; }
-.ol {
-  list-style: decimal inside; }
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
-li {
-  margin-bottom: 1rem; }
 
 
 /* Code
@@ -210,17 +196,16 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
-td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
-th:first-child,
-td:first-child {
-  padding-left: 0; }
-th:last-child,
-td:last-child {
-  padding-right: 0; }
+.tbl th {
+  background-color: #eee;
+  font-weight: bold;
+}
+.tbl th,
+.tbl td {
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,.12);
+}
+
 
 
 /* Spacing

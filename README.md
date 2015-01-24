@@ -2,6 +2,12 @@
 
 A class-attribute based simple CSS framework.
 
+
+## TODO
+
++ Register Bower
++ Create gh-pages
+
 ## Browser Support
 
 Latest browsers.

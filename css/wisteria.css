@@ -175,7 +175,15 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
-
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.ul {
+  list-style: disc inside; }
+.ol {
+  list-style: decimal inside; }
+.ul > li, .ol > li {
+  display: list-item;
+}
 
 
 /* Code

@@ -7,6 +7,44 @@
 */
 
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -31,6 +69,16 @@ body {
 .h5 { font-size: 2.0rem; }
 .h6 { font-size: 1.8rem; }
 
+.strong, .b  {
+  font-weight: bold;
+}
+
+.small, .weak {
+  font-size: 1.2rem;
+}
+.em {
+
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -59,19 +107,19 @@ a:hover {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.tbl th {
+.table th {
   background-color: rgba(0,0,0,.04);
   font-weight: bold;
 }
-.tbl th,
-.tbl td {
+.table th,
+.table td {
   padding: 1rem;
   border: 1px solid rgba(0,0,0,.12);
 }
 
 /* Blockquote
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.bq {
+.blockquate {
   padding: 1rem 2rem;
   border-left: .4rem solid rgba(0,0,0,.12);
 }
@@ -79,26 +127,26 @@ a:hover {
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-code {
+.code {
   padding: .2em 0;
   background-color: rgba(0,0,0,.04);
   border-radius: .4rem;
   font-family: Consolas, Courier, monospace;
 }
-pre > code {
+.pre > .code {
   display: block;
   padding: 1rem;
   overflow: auto;
 }
-code:after,
-code:before {
+.code:after,
+.code:before {
   letter-spacing: -.2em;
   content: "\00a0";
 }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.btn {
+.button {
   display: inline-block;
   border: 0;
   background: #651FFF;
@@ -107,7 +155,7 @@ code:before {
   color: #fff;
   text-align: center;
   line-height: 4.2rem; }
-.btn--outline {
+.button--outline {
   color: #651FFF;
   border: 1px solid #651FFF;
   background: transparent; }

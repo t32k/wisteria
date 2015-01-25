@@ -13,23 +13,26 @@
       margin-bottom: 10px;
       padding: 1rem;
     }
-
+    .container {
+      margin: auto;
+      max-width:960px;
+    }
   </style>
 </head>
 <body role="document" class="u-ptx" style="margin:30px">
-
-  <header>
-    <h1 class="h1">Wisteria</h1>
-    <p>v0.1.0</p>
-    <p>A class-attribute based simple CSS framework.</p>
-    <a class="button">Download</a>
+<div class="container">
+  <header class="u-tac">
+    <h1 class="h1"><img src="img/logo.svg" width="300" alt="Wisteria"></h1>
+    <p class="strong">v0.1.0</p>
+    <p class="u-mbx">A class-attribute based simple CSS framework.</p>
+    <p><a class="button">Download</a></p>
   </header>
 
   <hr class="hr u-mtx u-mbx">
   <h2 class="h2">Grids</h2>
 
 
-  <div class="g-row g-row--collapse u-mbx">
+  <div class="g-row u-mbx">
     <div class="g-col"><div>1/6</div></div>
     <div class="g-col"><div>1/6</div></div>
     <div class="g-col"><div>1/6</div></div>
@@ -188,6 +191,6 @@
   <fotter>
     <small>&copy; 2015 Wisteria</small>
   </fotter>
-
+</div>
 </body>
 </html>

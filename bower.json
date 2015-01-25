@@ -1,13 +1,10 @@
 {
   "name": "wisteria",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": "css/wisteria.css",
   "homepage": "https://github.com/t32k/wisteria",
-  "authors": [
-    "t32k <ijok.ijok@gmail.com>"
-  ],
+  "authors": "Koji Ishimoto <ijok.ijok@gmail.com>",
   "description": "A class-attribute based simple CSS framework.",
-  "keywords": [
-    "css"
-  ],
+  "keywords": ["css"],
   "license": "MIT"
 }

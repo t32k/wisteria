@@ -4,14 +4,20 @@
 
 A class-attribute based simple CSS framework.
 
+## Install
+
+```
+bower install --save wisteria
+```
+
 ## Browser Support
 
-+ Chrome latest
-+ Firefox latest
-+ Internet Explorer latest
-+ Opera latest
-+ Safari latest
++ Google Chrome (latest)
++ Mozilla Firefox (latest)
++ Internet Explorer (latest)
++ Opera (latest)
++ Apple Safari (latest)
 
 ## License
 
-This software is free to use under MIT license.
+This software is free to use under [MIT license](LICENCE).

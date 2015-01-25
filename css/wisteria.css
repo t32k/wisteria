@@ -6,7 +6,8 @@
 * 01/20/2015
 */
 
-
+/* Reset
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,7 +20,8 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video,
+input, select, button, textarea{
   margin: 0;
   padding: 0;
   border: 0;
@@ -45,6 +47,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -119,7 +122,7 @@ a:hover {
 
 /* Blockquote
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.blockquate {
+.blockquote {
   padding: 1rem 2rem;
   border-left: .4rem solid rgba(0,0,0,.12);
 }
@@ -202,7 +205,8 @@ a:hover {
 .u-cf {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 .u-fln { float: none !important; }
 .u-fll { float: left !important; }

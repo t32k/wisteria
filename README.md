@@ -9,8 +9,11 @@ A class-attribute based simple CSS framework.
 
 ## Browser Support
 
-Latest browsers.
-
++ Chrome latest
++ Firefox latest
++ Internet Explorer latest
++ Opera latest
++ Safari latest
 
 ## License
 

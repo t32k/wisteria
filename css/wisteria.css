@@ -8,12 +8,12 @@
 
 /* Reset
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-html, body, div, span, applet, object, iframe,
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -35,17 +35,8 @@ body {
 ol, ul {
   list-style: none;
 }
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
 table {
   border-collapse: collapse;
-  border-spacing: 0;
 }
 
 
@@ -75,13 +66,11 @@ body {
 .strong, .b  {
   font-weight: bold;
 }
-
 .weak, .small{
   font-size: 1.2rem;
 }
-.em {
-
-}
+.em, .i { font-style: italic; }
+.del { text-decoration:line-through;}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -151,7 +140,6 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
   display: inline-block;
-  border: 0;
   background: #651FFF;
   border-radius: .4rem;
   padding: 0 2rem;
@@ -169,6 +157,9 @@ a:hover {
 .hr {
   border: 0;
   border-top: 1px solid rgba(0,0,0,.12);
+}
+.hr--dashed {
+  border-top-style: dashed;
 }
 
 
@@ -215,6 +206,10 @@ a:hover {
 .u-tac { text-align: center !important; }
 .u-tal { text-align: left !important; }
 .u-tar { text-align: right !important; }
+
+.u-ttc { text-transform:capitalize !important; }
+.u-ttu { text-transform:uppercase !important; }
+.u-ttl { text-transform:lowercase !important; }
 
 .u-dn { display: none !important; }
 .u-di { display: inline !important; }

@@ -1,0 +1,22 @@
+{
+  "name": "wisteria",
+  "version": "0.1.0",
+  "description": "A class-attribute based simple CSS framework.",
+  "main": "css/wisteria.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t32k/wisteria.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Koji Ishimoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t32k/wisteria/issues"
+  },
+  "homepage": "https://github.com/t32k/wisteria"
+}

@@ -76,7 +76,7 @@ body {
   font-weight: bold;
 }
 
-.small, .weak {
+.weak, .small{
   font-size: 1.2rem;
 }
 .em {
@@ -219,3 +219,20 @@ a:hover {
 .u-dn { display: none !important; }
 .u-di { display: inline !important; }
 .u-db { display: block !important;}
+
+.u-w10 { width: 10% !important; }
+.u-w20 { width: 20% !important; }
+.u-w25 { width: 25% !important; }
+.u-w30 { width: 30% !important; }
+.u-w33 { width: 33% !important; }
+.u-w35 { width: 35% !important; }
+.u-w40 { width: 40% !important; }
+.u-w50 { width: 50% !important; }
+.u-w60 { width: 60% !important; }
+.u-w65 { width: 65% !important; }
+.u-w66 { width: 66% !important; }
+.u-w70 { width: 70% !important; }
+.u-w75 { width: 75% !important; }
+.u-w80 { width: 80% !important; }
+.u-w90 { width: 90% !important; }
+.u-w100 { width: 100% !important; }

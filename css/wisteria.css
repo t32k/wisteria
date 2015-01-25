@@ -103,10 +103,14 @@ code:before {
   border: 0;
   background: #651FFF;
   border-radius: .4rem;
-  padding: 0 1em;
+  padding: 0 2rem;
   color: #fff;
   text-align: center;
   line-height: 4.2rem; }
+.btn--outline {
+  color: #651FFF;
+  border: 1px solid #651FFF;
+  background: transparent; }
 
 
 /* Horizontal Rule
@@ -159,3 +163,7 @@ code:before {
 .u-tac { text-align: center !important; }
 .u-tal { text-align: left !important; }
 .u-tar { text-align: right !important; }
+
+.u-dn { display: none !important; }
+.u-di { display: inline !important; }
+.u-db { display: block !important;}

@@ -50,3 +50,4 @@ table {
 li {
 	display: inline;
 }
+input, select, textarea, button{font:inherit;}

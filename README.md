@@ -1,6 +1,6 @@
 # Wisteria
 
-![](img/logo.svg)
+![](/img/logo.svg)
 
 A class-attribute based simple CSS framework.
 
@@ -8,6 +8,10 @@ A class-attribute based simple CSS framework.
 
 ```
 bower install --save wisteria
+```
+
+```
+npm install --save wisteria
 ```
 
 ## Browser Support

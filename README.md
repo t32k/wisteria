@@ -1,4 +1,6 @@
-# wisteria
+# wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria)
+
+
 
 ![wisteria](img/logo.png)
 

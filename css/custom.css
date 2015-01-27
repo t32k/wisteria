@@ -1,0 +1,13 @@
+body {
+  margin: 3rem;
+}
+.container {
+  margin: auto;
+  max-width: 960px;
+}
+.block {
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-radius: .4rem;
+  background: #EDE7F6;
+}

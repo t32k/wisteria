@@ -1,7 +1,7 @@
 {
   "remove-empty-rulesets": true,
   "always-semicolon": true,
-  "color-case": "lower",
+  "color-case": "upper",
   "block-indent": "\t",
   "color-shorthand": false,
   "element-case": "lower",

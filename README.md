@@ -2,17 +2,26 @@
 
 ![](img/logos.png)
 
-A class-attribute based simple CSS framework.
+Wisteria.css is a class-attribute based simple CSS file.
 
 ## Install
+
+### Bower:
 
 ```
 bower install --save wisteria
 ```
 
+### npm:
+
 ```
 npm install --save wisteria
 ```
+
+### Download:
+
++ [zip](https://github.com/t32k/wisteria/archive/master.zip)
+
 
 ## Browser Support
 

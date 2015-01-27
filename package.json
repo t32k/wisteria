@@ -1,10 +1,10 @@
 {
   "name": "wisteria",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A class-attribute based simple CSS.",
   "main": "css/wisteria.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/t32k/wisteria/issues"
   },
-  "homepage": "https://github.com/t32k/wisteria"
+  "homepage": "https://github.com/t32k/wisteria",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-csscomb": "^3.0.3",
+    "gulp-csslint": "^0.1.5",
+    "gulp-csso": "^0.2.9",
+    "gulp-stylestats": "^0.4.1"
+  }
 }

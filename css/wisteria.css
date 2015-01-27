@@ -1,5 +1,5 @@
 /*
-* Wisteria v0.1.0
+* Wisteria v0.2.0
 * Copyright 2015, Koji Ishimoto
 * http://t32k.me/wisteria
 * MIT license.
@@ -207,6 +207,11 @@ a:hover {
   content: "";
   display: table;
   clear: both;
+}
+.u-tov {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .u-fln { float: none !important; }

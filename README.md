@@ -1,6 +1,6 @@
 # Wisteria
 
-![](/img/logo.svg)
+![](img/logo.svg?raw=true)
 
 A class-attribute based simple CSS framework.
 

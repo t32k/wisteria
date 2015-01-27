@@ -10,14 +10,14 @@ gulp.task('test', function() {
 gulp.task('csso', function() {
   return gulp.src('css/wisteria.css')
     .pipe($.csso())
-    .pipe(gulp.dest('css/wisteria.min.css'));
+    .pipe(gulp.dest('css/dist/'));
 });
 gulp.task('csscomb', function() {
   return gulp.src('./css/wisteria.css')
     .pipe($.csscomb())
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./css/'));
 });
-gulp.task('stylestats', function () {
-  gulp.src('css/wisteria.css')
+gulp.task('report', function () {
+  gulp.src('./css/wisteria.css')
     .pipe($.stylestats());
 });

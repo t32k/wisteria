@@ -32,8 +32,11 @@ body {
 .strong, .b  {
   font-weight: bold;
 }
-.weak, .small{
-  font-size: 1.2rem;
+.weak {
+  color: rgba(0,0,0,.26);
+}
+.small {
+  font-size: 80%;
 }
 .em, .i { font-style: italic; }
 .del { text-decoration:line-through;}

@@ -1,31 +1,39 @@
-# Wisteria
+# wisteria
 
-![](img/logos.png)
+![wisteria](img/logo.png)
 
-Wisteria.css is a class-attribute based simple CSS library.
+wisteria.css is a class-attribute based harmless CSS library.
 
-+ __Harmless__: Wisteria dose not destroy your web page, because have almost class selector style.
-+ __Helper__:  Wisteria has a bunch of [Emmet-like](http://docs.emmet.io/cheat-sheet/) utility classes.
-+ __Hi-Speed__: You can make a mock-up site/app rapidly.
++ __Harmless__: wisteria dose not destroy your web page, because have almost class selector style.
++ __Helper__:  wisteria has a bunch of [Emmet-like](http://docs.emmet.io/cheat-sheet/) utility classes.
++ __Hi-Speed__: You can make a mock-up site rapidly.
 
 ## Install
 
-### Bower:
+__Bower:__
 
 ```
 bower install --save wisteria
 ```
 
-### npm:
+__npm:__
 
 ```
 npm install --save wisteria
 ```
 
-### Download:
+__Download:__
 
 + [zip](https://github.com/t32k/wisteria/archive/master.zip)
 
+## Getting started
+
+Include the wisteria.css and [HTML5-Rest](https://github.com/murtaugh/HTML5-Reset).css files in your site.
+
+```html
+<link rel="stylesheet" href="css/html5-reset.css">
+<link rel="stylesheet" href="css/wisteria.css">
+```
 
 ## Browser Support
 

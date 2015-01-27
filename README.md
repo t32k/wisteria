@@ -2,7 +2,11 @@
 
 ![](img/logos.png)
 
-Wisteria.css is a class-attribute based simple CSS file.
+Wisteria.css is a class-attribute based simple CSS library.
+
++ __Harmless__: Wisteria dose not destroy your web page, just reset.
++ __Helper__:  Wisteria has a bunch of utility classes.
++ __Hi-Speed__: You can make a mock-up site/app rapidly.
 
 ## Install
 

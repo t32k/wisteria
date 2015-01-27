@@ -1,6 +1,6 @@
 /*
-* Wisteria v0.2.0
-* Copyright 2015, Koji Ishimoto
+* wisteria
+* (c) 2015, Koji Ishimoto
 * http://t32k.me/wisteria
 * MIT license.
 */
@@ -26,44 +26,41 @@ body {
 .h6 { font-size: 1.8rem; }
 
 .strong,
-.b {
-	font-weight: bold; }
-.weak { color: rgba(0,0,0,.26); }
-.small { font-size: 1.2rem; }
+.b { font-weight: bold; }
 .em,
 .i { font-style: italic; }
+.weak { color: rgba(0,0,0,.26); }
+.small { font-size: 1.2rem; }
 .del { text-decoration: line-through; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
 	text-decoration: none;
-	color: #673ab7; }
-a:hover {
-	color: #6200ea; }
+	color: #673AB7; }
+a:hover { color: #6200EA; }
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.ul {
-	list-style: disc inside; }
-.ol {
-	list-style: decimal inside; }
+.ul { list-style: disc inside; }
+.ol { list-style: decimal inside; }
+
 .ul li,
-.ol li {
-	display: list-item; }
+.ol li { display: list-item; }
+
 .ul .ul,
 .ul .ol,
 .ol .ul,
-.ol .ol {
-	margin-left: 2rem; }
-.ul .ul {
-	list-style-type: circle; }
+.ol .ol { margin-left: 2rem; }
+
+.ul .ul { list-style-type: circle; }
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .table th {
 	font-weight: bold;
 	background-color: rgba(0,0,0,.04); }
+
 .table th,
 .table td {
 	padding: 1rem;
@@ -101,21 +98,19 @@ a:hover {
 	padding: 0 2rem;
 	text-align: center;
 	vertical-align: middle;
-	color: #ffffff;
+	color: #FFFFFF;
 	border: 0;
 	border-radius: .4rem;
-	background: #651fff; }
+	background: #651FFF; }
 
-.button:hover {
-	color: #ffffff; }
+.button:hover { color: #FFFFFF; }
 
 .button--outline {
-	color: #651fff;
-	border: 1px solid #651fff;
+	color: #651FFF;
+	border: 1px solid #651FFF;
 	background: transparent; }
 
-.button--outline:hover {
-	color: #651fff; }
+.button--outline:hover { color: #651FFF; }
 
 /* Grids
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -123,12 +118,10 @@ a:hover {
 	display: -webkit-flex;
 	display:         flex;
 	margin-left: -1rem;
-
 	-webkit-flex-wrap: wrap;
 	        flex-wrap: wrap; }
 .g-col {
 	padding-left: 1rem;
-
 	-webkit-flex: 0 0 100%;
 	        flex: 0 0 100%; }
 .g-row--collapse { margin-left: 0; }

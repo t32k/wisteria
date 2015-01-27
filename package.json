@@ -1,7 +1,7 @@
 {
   "name": "wisteria",
-  "version": "0.1.0",
-  "description": "A class-attribute based simple CSS framework.",
+  "version": "0.1.2",
+  "description": "A class-attribute based simple CSS.",
   "main": "css/wisteria.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

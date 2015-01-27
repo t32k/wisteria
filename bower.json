@@ -5,6 +5,16 @@
   "homepage": "https://github.com/t32k/wisteria",
   "authors": "Koji Ishimoto <ijok.ijok@gmail.com>",
   "description": "A class-attribute based harmless CSS library.",
-  "keywords": ["css"],
-  "license": "MIT"
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "gulpfile.js",
+    "bower_components"
+  ],
+  "dependencies": {
+    "HTML5-Reset": "~2.1.2"
+  }
 }

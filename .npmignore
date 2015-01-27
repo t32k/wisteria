@@ -3,3 +3,4 @@
 .csscomb.json
 .csslintrc
 gulpfile.js
+bower_components

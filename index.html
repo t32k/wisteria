@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/wisteria.css">
   <style>
+    body {
+      margin: 3rem;
+    }
     .g-col > div {
       margin-bottom: 10px;
       padding: 1rem;
@@ -20,13 +23,13 @@
     }
   </style>
 </head>
-<body role="document" class="u-ptx" style="margin:30px">
+<body role="document">
 <div class="container">
   <header class="u-tac">
     <h1 class="h1"><img src="img/logos.png" width="200" alt="Wisteria"></h1>
     <p class="strong">v0.1.0</p>
     <p class="u-mbx">A class-attribute based simple CSS framework.</p>
-    <p><a class="button">Download</a></p>
+    <p><a href="https://github.com/t32k/wisteria/archive/master.zip" class="button">Download</a></p>
   </header>
 
   <hr class="hr u-mtx u-mbx">
@@ -66,10 +69,19 @@
     <div class="h6">Header Text 6</div>
     <div class="h6 u-mtx u-mbs">Paragraph</div>
 
-    <div>Lorem ipsum dolor amet, id his <span class="strong">strong</span> malorum, dictas euripidis pri et, at his <span class="weak">weak</span> dolorum. Eam in nihil elaboraret, eum facete <span class="del">del</span> adversarium quem odio. Ei recteque postulant persecuti vix. His id <span class="small">small</span> falli omnesque, dicam electram id est, his possim temporibus ei.</div>
+    <div>Lorem ipsum <a href="#">anchor</a> amet, id his <span class="strong">strong</span> malorum, dictas euripidis pri et, at his <span class="weak">weak</span> dolorum. Eam in nihil elaboraret, eum facete <span class="del">del</span> adversarium quem odio. Ei recteque postulant persecuti vix. His id <span class="small">small</span> falli omnesque, dicam electram id est, his possim temporibus ei.</div>
     <div>Lorem ipsum dolor amet, id his idque malorum, dictas euripidis pri et, at his homero dolorum. Eam in nihil elaboraret, eum facete definiebas adversarium quem odio. Ei recteque postulant persecuti vix. His id modo falli omnesque, dicam electram id est, his possim temporibus ei.</div>
   </section>
 
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h2 class="h2 u-mbm">Horizontal Rule</h2>
+  <section>
+    <hr class="hr u-mbx">
+    <hr class="hr hr--dashed u-mbx">
+  </section>
 
   <hr class="hr u-mtx u-mbx">
 
@@ -138,15 +150,6 @@
   <hr class="hr u-mtx u-mbx">
 
 
-  <h2 class="h2 u-mbm">Links</h2>
-  <section>
-    <p>Lorem ipsum dolor <a href="#">Go to hell</a> amet, id his idque malorum, dictas euripidis pri et, at his homero dolorum. Eam in nihil elaboraret, eum facete definiebas adversarium quem odio. Ei recteque postulant persecuti vix. His id modo falli omnesque, dicam electram id est, his possim temporibus ei.</p>
-  </section>
-
-
-  <hr class="hr u-mtx u-mbx">
-
-
   <h2 class="h2 u-mbm">Code</h2>
   <section>
     <pre class="pre u-mbm"><code class="code">&lt;p&gt;ssssssss&lt;/p&gt;</code></pre>
@@ -193,17 +196,8 @@
 
 
   <hr class="hr u-mtx u-mbx">
-
-
-  <h2 class="h2 u-mbm">Horizontal Rule</h2>
-  <section>
-    <hr class="hr u-mbx">
-    <hr class="hr hr--dashed u-mbx">
-  </section>
-
-
   <fotter>
-    <small>&copy; 2015 Wisteria</small>
+    <small class="small">&copy; 2015 Wisteria</small>
   </fotter>
 </div>
 </body>

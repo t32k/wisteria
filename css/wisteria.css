@@ -3,7 +3,6 @@
 * Copyright 2015, Koji Ishimoto
 * http://t32k.me/wisteria
 * MIT license.
-* 01/20/2015
 */
 
 /* Base Styles
@@ -12,19 +11,18 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   line-height: 1.8;
   font-weight: 400;
   font-family: "Noto Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgba(0,0,0,.87);
 }
 
-
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.h1 { font-size: 4.0rem; }
-.h2 { font-size: 3.6rem; }
-.h3 { font-size: 3.0rem; }
+.h1 { font-size: 6.4rem; }
+.h2 { font-size: 4.8rem; }
+.h3 { font-size: 3.6rem; }
 .h4 { font-size: 2.4rem; }
 .h5 { font-size: 2.0rem; }
 .h6 { font-size: 1.8rem; }
@@ -36,7 +34,7 @@ body {
   color: rgba(0,0,0,.26);
 }
 .small {
-  font-size: 80%;
+  font-size: 1.2rem;
 }
 .em, .i { font-style: italic; }
 .del { text-decoration:line-through;}
@@ -45,10 +43,11 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #673AB7;
-text-decoration: none}
+  text-decoration: none;
+}
 a:hover {
-  color: #6200EA; }
-
+  color: #6200EA;
+}
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -56,10 +55,14 @@ a:hover {
   list-style: disc inside; }
 .ol {
   list-style: decimal inside; }
-.ul li, .ol li {
+.ul li,
+.ol li {
   display: list-item;
 }
-.ul .ul, .ul .ol, .ol .ul, .ol .ol {
+.ul .ul,
+.ul .ol,
+.ol .ul,
+.ol .ol {
   margin-left: 2rem;
 }
 .ul .ul {
@@ -89,7 +92,7 @@ a:hover {
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .code {
-  padding: .2em 0;
+  padding: .2rem 0;
   background-color: rgba(0,0,0,.04);
   border-radius: .4rem;
   font-family: Consolas, Courier, monospace;
@@ -101,7 +104,7 @@ a:hover {
 }
 .code:after,
 .code:before {
-  letter-spacing: -.2em;
+  letter-spacing: -.2rem;
   content: "\00a0";
 }
 
@@ -117,11 +120,13 @@ a:hover {
   padding: 0 2rem;
   color: #fff;
   text-align: center;
-  line-height: 4.2rem; }
+  line-height: 4.2rem;
+}
 
 .button:hover {
   color: #fff;
 }
+
 .button--outline {
   color: #651FFF;
   border: 1px solid #651FFF;
@@ -173,26 +178,26 @@ a:hover {
 .u-ma { margin: auto !important;}
 .u-mtn { margin-top: 0 !important;}
 .u-mts { margin-top: .4rem !important;}
-.u-mtm { margin-top: 1rem !important;}
-.u-mtl { margin-top: 2rem !important;}
-.u-mtx { margin-top: 3rem !important;}
+.u-mtm { margin-top: 1.6rem !important;}
+.u-mtl { margin-top: 3.2rem !important;}
+.u-mtx { margin-top: 4.8rem !important;}
 .u-mbn { margin-bottom: 0 !important;}
 .u-mbs { margin-bottom: .4rem !important;}
-.u-mbm { margin-bottom: 1rem !important;}
-.u-mbl { margin-bottom: 2rem !important;}
-.u-mbx { margin-bottom: 3rem !important;}
+.u-mbm { margin-bottom: 1.6rem !important;}
+.u-mbl { margin-bottom: 3.2rem !important;}
+.u-mbx { margin-bottom: 4.8rem !important;}
 .u-mn { margin: 0 !important;}
 
 .u-ptn { padding-top: 0 !important;}
 .u-pts { padding-top: .4rem !important;}
-.u-ptm { padding-top: 1rem !important;}
-.u-ptl { padding-top: 2rem !important;}
-.u-ptx { padding-top: 3rem !important;}
+.u-ptm { padding-top: 1.6rem !important;}
+.u-ptl { padding-top: 3.2rem !important;}
+.u-ptx { padding-top: 4.8rem !important;}
 .u-pbn { padding-bottom: 0 !important;}
 .u-pbs { padding-bottom: .4rem !important;}
-.u-pbm { padding-bottom: 1rem !important;}
-.u-pbl { padding-bottom: 2rem !important;}
-.u-pbx { padding-bottom: 3rem !important;}
+.u-pbm { padding-bottom: 1.6rem !important;}
+.u-pbl { padding-bottom: 3.2rem !important;}
+.u-pbx { padding-bottom: 4.8rem !important;}
 .u-pn { padding: 0 !important; }
 
 

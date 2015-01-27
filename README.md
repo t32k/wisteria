@@ -1,32 +1,18 @@
 # wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria)
 
-
-
 ![wisteria](img/logo.png)
 
 wisteria.css is a class-attribute based harmless CSS library.
 
 + __Harmless__: wisteria dose not destroy your web page, because have almost class selector style.
-+ __Helper__:  wisteria has a bunch of [Emmet-like](http://docs.emmet.io/cheat-sheet/) utility classes.
++ __Helper__:  wisteria has a bunch of [Emmet](http://docs.emmet.io/cheat-sheet/)-like utility classes.
 + __Hi-Speed__: You can make a mock-up site rapidly.
 
 ## Install
 
-__Bower:__
-
-```
-bower install --save wisteria
-```
-
-__npm:__
-
-```
-npm install --save wisteria
-```
-
-__Download:__
-
-+ [zip](https://github.com/t32k/wisteria/archive/master.zip)
++ __Bower:__ `bower install --save wisteria`
++ __npm:__ `npm install --save wisteria`
++ __Download:__ [zip](https://github.com/t32k/wisteria/archive/master.zip)
 
 ## Getting started
 

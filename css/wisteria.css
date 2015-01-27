@@ -228,7 +228,8 @@ a:hover {
 
 .u-dn { display: none !important; }
 .u-di { display: inline !important; }
-.u-db { display: block !important;}
+.u-db { display: block !important; }
+.u-vh { visibility: hidden !important; }
 
 .u-w10 { width: 10% !important; }
 .u-w20 { width: 20% !important; }

@@ -1,1 +1,5 @@
+.idea
 .travis.yml
+.csscomb.json
+.csslintrc
+gulpfile.js

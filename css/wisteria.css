@@ -7,8 +7,7 @@
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-html {
-	font-size: 62.5%; }
+html { font-size: 62.5%; }
 body {
 	font-family: "Noto Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.6rem;
@@ -25,13 +24,14 @@ body {
 .h5 { font-size: 2.0rem; }
 .h6 { font-size: 1.8rem; }
 
-.strong,
-.b { font-weight: bold; }
-.em,
-.i { font-style: italic; }
+.b,
+.strong { font-weight: bold; }
 .weak { color: rgba(0,0,0,.26); }
-.small { font-size: 1.2rem; }
+.i,
+.em { font-style: italic; }
 .del { text-decoration: line-through; }
+.small { font-size: 1.2rem; }
+
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -57,6 +57,10 @@ a:hover { color: #6200EA; }
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.color {
+	font-size: 10px;
+	color: red;
+	background: red; }
 .table th {
 	font-weight: bold;
 	background-color: rgba(0,0,0,.04); }
@@ -102,14 +106,12 @@ a:hover { color: #6200EA; }
 	border: 0;
 	border-radius: .4rem;
 	background: #651FFF; }
-
 .button:hover { color: #FFFFFF; }
 
 .button--outline {
 	color: #651FFF;
 	border: 1px solid #651FFF;
 	background: transparent; }
-
 .button--outline:hover { color: #651FFF; }
 
 /* Grids
@@ -118,10 +120,12 @@ a:hover { color: #6200EA; }
 	display: -webkit-flex;
 	display:         flex;
 	margin-left: -1rem;
+
 	-webkit-flex-wrap: wrap;
 	        flex-wrap: wrap; }
 .g-col {
 	padding-left: 1rem;
+
 	-webkit-flex: 0 0 100%;
 	        flex: 0 0 100%; }
 .g-row--collapse { margin-left: 0; }

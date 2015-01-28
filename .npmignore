@@ -1,8 +1,5 @@
-public
 .idea
 .travis.yml
 .csscomb.json
 .csslintrc
-bower.json
-gulpfile.js
 wercker.yml

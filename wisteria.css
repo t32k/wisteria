@@ -19,12 +19,25 @@ body {
 
 /*	#Typography
 \*------------------------------------*/
-.h1 { font-size: 6.4rem; }
-.h2 { font-size: 4.8rem; }
-.h3 { font-size: 3.6rem; }
-.h4 { font-size: 2.4rem; }
-.h5 { font-size: 2.0rem; }
-.h6 { font-size: 1.8rem; }
+.h1,
+.u-fz1 { font-size: 6.4rem; }
+.h2,
+.u-fz2 { font-size: 4.8rem; }
+.h3,
+.u-fz3 { font-size: 3.6rem; }
+.h4,
+.u-fz4 { font-size: 2.4rem; }
+.h5,
+.u-fz5 { font-size: 2.0rem; }
+.h6,
+.u-fz6 { font-size: 1.8rem; }
+
+.u-fz7 {  font-size: 1.6rem; }
+
+.u-fz8 {  font-size: 1.4rem; }
+.small,
+.u-fz9 {  font-size: 1.2rem; }
+.u-fz10 {  font-size: 1rem; }
 
 .b,
 .strong { font-weight: bold; }
@@ -32,7 +45,6 @@ body {
 .i,
 .em { font-style: italic; }
 .del { text-decoration: line-through; }
-.small { font-size: 1.2rem; }
 
 
 /*	#Links

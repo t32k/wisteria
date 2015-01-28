@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/t32k/wisteria",
   "devDependencies": {
+    "browser-sync": "^1.9.1",
     "gulp": "^3.8.10",
     "gulp-csscomb": "^3.0.3",
     "gulp-csslint": "^0.1.5",

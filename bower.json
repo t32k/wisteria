@@ -10,9 +10,8 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "gulpfile.js",
-    "package.json",
+    ".idea",
+    ".travis.yml,
     "wercker.yml"
   ]
 }

@@ -1,4 +1,4 @@
-# wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria)
+# wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria) [![wercker status](https://app.wercker.com/status/fff7cc4c5446d5b16065e8f93a79309e/s/master "wercker status")](https://app.wercker.com/project/bykey/fff7cc4c5446d5b16065e8f93a79309e)
 
 wisteria.css is a class-attribute based harmless CSS library.
 

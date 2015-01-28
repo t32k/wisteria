@@ -1,5 +1,3 @@
 .idea
 .travis.yml
-.csscomb.json
-.csslintrc
 wercker.yml

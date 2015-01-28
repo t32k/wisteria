@@ -15,14 +15,33 @@ body {
 	font-weight: 400;
 	line-height: 1.8;
 	color: rgba(0,0,0,.87); }
-
-
-/*	#Links
-\*------------------------------------*/
 a {
 	text-decoration: none;
 	color: #673AB7; }
 a:hover { color: #6200EA; }
+
+
+/*	#Grids
+\*------------------------------------*/
+.g-row {
+	display: -webkit-flex;
+	display:         flex;
+	margin-left: -1rem;
+
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap; }
+.g-col {
+	padding-left: 1rem;
+
+	-webkit-flex: 0 0 100%;
+	        flex: 0 0 100%; }
+.g-row--collapse { margin-left: 0; }
+.g-row--collapse > .g-col { padding-left: 0; }
+
+@media (min-width: 550px) {
+	.g-col {
+		-webkit-flex: 1;
+		        flex: 1; } }
 
 
 /*	#Typography
@@ -55,50 +74,6 @@ a:hover { color: #6200EA; }
 .del { text-decoration: line-through; }
 
 
-/*	#Images
-\*------------------------------------*/
-.img--oval {
-	border-radius: 50%;
-
-	object-fit: cover; }
-/* http://caniuse.com/#feat=object-fit */
-
-
-/*	#Lists
-\*------------------------------------*/
-.ul { list-style: disc inside; }
-.ol { list-style: decimal inside; }
-
-.ul li,
-.ol li { display: list-item; }
-
-.ul .ul,
-.ul .ol,
-.ol .ul,
-.ol .ol { margin-left: 2rem; }
-
-.ul .ul { list-style-type: circle; }
-
-
-/*	#Tables
-\*------------------------------------*/
-.table th {
-	font-weight: bold;
-	background-color: rgba(0,0,0,.04); }
-
-.table th,
-.table td {
-	padding: 1rem;
-	border: 1px solid rgba(0,0,0,.12); }
-
-
-/*	#Blockquote
-\*------------------------------------*/
-.blockquote {
-	padding: 1rem 2rem;
-	border-left: .4rem solid rgba(0,0,0,.12); }
-
-
 /*	#Code
 \*------------------------------------*/
 .code {
@@ -114,6 +89,18 @@ a:hover { color: #6200EA; }
 .code:before {
 	content: "\00a0";
 	letter-spacing: -.2rem; }
+
+
+/*	#Tables
+\*------------------------------------*/
+.table th {
+	font-weight: bold;
+	background-color: rgba(0,0,0,.04); }
+
+.table th,
+.table td {
+	padding: 1rem;
+	border: 1px solid rgba(0,0,0,.12); }
 
 
 /*	#Forms
@@ -148,36 +135,51 @@ a:hover { color: #6200EA; }
 	border: 0;
 	border-radius: .4rem;
 	background: #651FFF; }
-.button:hover { color: #FFFFFF; }
+.button:hover {
+	color: #FFFFFF;
+	background: #4527A0; }
+.button:focus { outline: 0 !important; }
 
 .button--outline {
 	color: #651FFF;
 	border: 1px solid #651FFF;
 	background: transparent; }
-.button--outline:hover { color: #651FFF; }
+.button--outline:hover {
+	color: #4527A0;
+	border-color: #4527A0;
+	background: transparent; }
 
 
-/*	#Grids
+/*	#Images
 \*------------------------------------*/
-.g-row {
-	display: -webkit-flex;
-	display:         flex;
-	margin-left: -1rem;
+/* http://caniuse.com/#feat=object-fit */
+.img--oval {
+	border-radius: 50%;
 
-	-webkit-flex-wrap: wrap;
-	        flex-wrap: wrap; }
-.g-col {
-	padding-left: 1rem;
+	object-fit: cover; }
 
-	-webkit-flex: 0 0 100%;
-	        flex: 0 0 100%; }
-.g-row--collapse { margin-left: 0; }
-.g-row--collapse > .g-col { padding-left: 0; }
 
-@media (min-width: 550px) {
-	.g-col {
-		-webkit-flex: 1;
-		        flex: 1; } }
+/*	#Lists
+\*------------------------------------*/
+.ul { list-style: disc inside; }
+.ol { list-style: decimal inside; }
+
+.ul li,
+.ol li { display: list-item; }
+
+.ul .ul,
+.ul .ol,
+.ol .ul,
+.ol .ol { margin-left: 2rem; }
+
+.ul .ul { list-style-type: circle; }
+
+
+/*	#Blockquote
+\*------------------------------------*/
+.blockquote {
+	padding: 1rem 2rem;
+	border-left: .4rem solid rgba(0,0,0,.12); }
 
 
 /*	#HorizontalRule
@@ -187,7 +189,6 @@ a:hover { color: #6200EA; }
 	border-top: 1px solid rgba(0,0,0,.12); }
 .hr--dashed {
 	border-top-style: dashed; }
-
 
 
 /*	#Spacing

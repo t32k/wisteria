@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>wisteria.css - A class-attribute based harmless CSS library.</title>
+  <title>Wisteria.css - A class-attribute based harmless CSS library.</title>
   <meta name="description" content="A class-attribute based harmless CSS library.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/html5-reset.css">
@@ -16,7 +16,7 @@
 
 <header class="hero">
   <div class="inner">
-    <h1 class="h1 u-ptl">wisteria</h1>
+    <h1 class="h1 u-ptl">Wisteria</h1>
     <p class="u-fz4">A class-attribute based harmless CSS library.</p>
     <p class="b u-mbx">v0.5.0</p>
     <p><a href="https://github.com/t32k/wisteria/archive/master.zip" class="button">Download Wisteria</a></p>
@@ -44,7 +44,7 @@
   </div>
 
   <div class="u-mbx u-tac">
-    <a href="" class="button button--outline">View the GitHub project</a></div>
+    <a href="https://github.com/t32k/wisteria" class="button button--outline">View the GitHub project</a></div>
 
   <hr class="hr u-mtx u-mbx">
 
@@ -88,7 +88,9 @@
       &lt;/div&gt;</code></pre>
   </section>
 
+
   <hr class="hr u-mtx u-mbx">
+
 
   <h3 class="h3">Typography</h3>
   <section>
@@ -113,12 +115,124 @@
   <hr class="hr u-mtx u-mbx">
 
 
-  <h3 class="h3 u-mbm">Horizontal Rule</h3>
+  <h3 class="h3 u-mbm">Code</h3>
   <section>
-    <hr class="hr u-mbl">
-    <hr class="hr hr--dashed u-mbl">
-    <pre><code class="html">&lt;hr class=&quot;hr&quot;&gt;
-      &lt;hr class=&quot;hr hr--dashed&quot;&gt;</code></pre>
+    <p class="u-mbm">This is <code class="code">.inline-code { color: red }</code>.</p>
+    <pre class="pre"><code class="code nohighlight">function func() {
+      &nbsp;&nbsp;console.log('Hello World!');
+      }</code></pre>
+    <pre><code class="html">This is &lt;code class=&quot;code&quot;&gt;.inline-code { color: red }&lt;/code&gt;.
+
+      &lt;pre class=&quot;pre&quot;&gt;&lt;code class=&quot;code&quot;&gt;function func() {
+      &amp;nbsp;&amp;nbsp;console.log(&#039;Hello World!&#039;);
+      }&lt;/code&gt;&lt;/pre&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <div class="h3 u-mbm">Tables</div>
+  <section>
+    <table class="table u-mbx">
+      <tr><th>Header</th>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+      <tr><th>Header</th>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+    </table>
+    <table class="table u-mbx">
+      <tr><th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+    </table>
+    <pre><code class="html">&lt;table class=&quot;table&quot;&gt;
+      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;table class=&quot;table&quot;&gt;
+      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
+      &lt;th&gt;Header&lt;/th&gt;
+      &lt;th&gt;Header&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/table&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 class="h3 u-mbm">Forms</h3>
+  <section>
+    <input type="checkbox" class="checkbox">Checkbox
+    <pre class="u-mbx"><code class="html">&lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;Checkbox&lt;/div&gt;</code></pre>
+
+    <input type="email" placeholder="test@mail.com" class="input">
+    <pre class="u-mbx"><code class="html">&lt;input type=&quot;email&quot; placeholder=&quot;test@mail.com&quot; class=&quot;input&quot;&gt;&lt;/div&gt;</code></pre>
+
+    <textarea class="textarea" placeholder="Hi.."></textarea>
+    <pre class="u-mbx"><code class="html">&lt;textarea placeholder=&quot;Hi..&quot; class=&quot;textarea&quot;&gt;&lt;/textarea&gt;</code></pre>
+
+    <select class="select">
+      <option value="Option 1">Questions</option>
+      <option value="Option 2">Admiration</option>
+      <option value="Option 3">Can I get your number?</option>
+    </select>
+    <pre><code class="html">&lt;select class=&quot;select&quot;&gt;
+      &lt;option value=&quot;Option01&quot;&gt;Option 01&lt;/option&gt;
+      &lt;option value=&quot;Option02&quot;&gt;Option 02&lt;/option&gt;
+      &lt;option value=&quot;Option03&quot;&gt;Option 03&lt;/option&gt;
+      &lt;/select&gt;
+    </code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 class="h3 u-mbm">Buttons</h3>
+  <section>
+    <div class="u-mbm">
+      <a href="#" class="button">Link</a>
+      <button class="button">Button</button>
+      <input type="submit" class="button" value="Submit">
+    </div>
+    <div class="u-mbm">
+      <a href="#" class="button button--outline">Link</a>
+      <button class="button button--outline">Button</button>
+      <input type="submit" class="button button--outline" value="Submit">
+    </div>
+    <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Link&lt;/a&gt;
+      &lt;button class=&quot;button&quot;&gt;Button&lt;/button&gt;
+      &lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;Submit&quot;&gt;
+
+      &lt;a href=&quot;#&quot; class=&quot;button button--outline&quot;&gt;Link&lt;/a&gt;
+      &lt;button class=&quot;button button--outline&quot;&gt;Button&lt;/button&gt;
+      &lt;input type=&quot;submit&quot; class=&quot;button button--outline&quot; value=&quot;Submit&quot;&gt;</code></pre>
   </section>
 
 
@@ -203,140 +317,31 @@
   <hr class="hr u-mtx u-mbx">
 
 
-  <h3 class="h3 u-mbm">Forms</h3>
+  <h3 class="h3 u-mbm">Blockquote</h3>
   <section>
-    <input type="checkbox" class="checkbox">Checkbox
-    <pre class="u-mbx"><code class="html">&lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;Checkbox&lt;/div&gt;</code></pre>
-
-    <input type="email" placeholder="test@mail.com" class="input">
-    <pre class="u-mbx"><code class="html">&lt;input type=&quot;email&quot; placeholder=&quot;test@mail.com&quot; class=&quot;input&quot;&gt;&lt;/div&gt;</code></pre>
-
-    <textarea class="textarea" placeholder="Hi.."></textarea>
-    <pre class="u-mbx"><code class="html">&lt;textarea placeholder=&quot;Hi..&quot; class=&quot;textarea&quot;&gt;&lt;/textarea&gt;</code></pre>
-
-    <select class="select">
-      <option value="Option 1">Questions</option>
-      <option value="Option 2">Admiration</option>
-      <option value="Option 3">Can I get your number?</option>
-    </select>
-    <pre><code class="html">&lt;select class=&quot;select&quot;&gt;
-      &lt;option value=&quot;Option01&quot;&gt;Option 01&lt;/option&gt;
-      &lt;option value=&quot;Option02&quot;&gt;Option 02&lt;/option&gt;
-      &lt;option value=&quot;Option03&quot;&gt;Option 03&lt;/option&gt;
-      &lt;/select&gt;
+    <blockquote class="blockquote u-mbm">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    </blockquote>
+    <pre><code class="html">&lt;blockquote class=&quot;blockquote&quot;&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+      &lt;/blockquote&gt;
     </code></pre>
   </section>
 
-
   <hr class="hr u-mtx u-mbx">
 
 
-  <h3 class="h3 u-mbm">Buttons</h3>
+  <h3 class="h3 u-mbm">Horizontal Rule</h3>
   <section>
-    <div class="u-mbm">
-      <a href="#" class="button">Link</a>
-      <button class="button">Button</button>
-      <input type="submit" class="button" value="Submit">
-    </div>
-    <div class="u-mbm">
-      <a href="#" class="button button--outline">Link</a>
-      <button class="button button--outline">Button</button>
-      <input type="submit" class="button button--outline" value="Submit">
-    </div>
-    <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Link&lt;/a&gt;
-      &lt;button class=&quot;button&quot;&gt;Button&lt;/button&gt;
-      &lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;Submit&quot;&gt;
-
-      &lt;a href=&quot;#&quot; class=&quot;button button--outline&quot;&gt;Link&lt;/a&gt;
-      &lt;button class=&quot;button button--outline&quot;&gt;Button&lt;/button&gt;
-      &lt;input type=&quot;submit&quot; class=&quot;button button--outline&quot; value=&quot;Submit&quot;&gt;</code></pre>
+    <hr class="hr u-mbl">
+    <hr class="hr hr--dashed u-mbl">
+    <pre><code class="html">&lt;hr class=&quot;hr&quot;&gt;
+      &lt;hr class=&quot;hr hr--dashed&quot;&gt;</code></pre>
   </section>
 
 
   <hr class="hr u-mtx u-mbx">
 
-
-  <h3 class="h3 u-mbm">Code</h3>
-  <section>
-    <p class="u-mbm">This is <code class="code">.inline-code { color: red }</code>.</p>
-    <pre class="pre"><code class="code nohighlight">function func() {
-    &nbsp;&nbsp;console.log('Hello World!');
-      }</code></pre>
-    <pre><code class="html">This is &lt;code class=&quot;code&quot;&gt;.inline-code { color: red }&lt;/code&gt;.
-
-      &lt;pre class=&quot;pre&quot;&gt;&lt;code class=&quot;code&quot;&gt;function func() {
-      &amp;nbsp;&amp;nbsp;console.log(&#039;Hello World!&#039;);
-      }&lt;/code&gt;&lt;/pre&gt;</code></pre>
-  </section>
-
-
-  <hr class="hr u-mtx u-mbx">
-
-
-  <div class="h3 u-mbm">Tables</div>
-  <section>
-    <table class="table u-mbx">
-      <tr><th>Header</th>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-      </tr>
-      <tr><th>Header</th>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-      </tr>
-    </table>
-    <table class="table u-mbx">
-      <tr><th>Header</th>
-        <th>Header</th>
-        <th>Header</th>
-      </tr>
-      <tr>
-        <td>Data</td>
-        <td>Data</td>
-        <td>Data</td>
-      </tr>
-    </table>
-    <pre><code class="html">&lt;table class=&quot;table&quot;&gt;
-      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/table&gt;
-      &lt;table class=&quot;table&quot;&gt;
-      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
-      &lt;th&gt;Header&lt;/th&gt;
-      &lt;th&gt;Header&lt;/th&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;td&gt;Data&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/table&gt;</code></pre>
-  </section>
-
-
-  <hr class="hr u-mtx u-mbx">
-
-
-  <h3 class="h3 u-mbm">Blockquote</h3>
-  <blockquote class="blockquote u-mbm">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-  </blockquote>
-  <pre><code class="html">&lt;blockquote class=&quot;blockquote&quot;&gt;
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-    &lt;/blockquote&gt;
-  </code></pre>
-
-  <hr class="hr u-mtx u-mbx">
 
   <div class="h3 u-mbm">Utilities</div>
   <section>
@@ -411,10 +416,14 @@
       .u-w100 { width: 100% !important; }</code></pre>
   </section>
 
-  <hr class="hr u-mtx u-mbx">
-  <fotter>
-    <small role="contentinfo" class="small">&copy; 2015 Wisteria</small>
-  </fotter>
+
+  <hr class="hr u-mtx u-mbm">
+
 </div>
+
+<footer class="u-tac u-pbm">
+  <small role="contentinfo" class="small">&copy; 2015 Wisteria</small>
+</footer>
+
 </body>
 </html>

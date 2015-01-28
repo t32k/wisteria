@@ -3,5 +3,5 @@
   "fallback-colors": false,
   "font-sizes": false,
   "known-properties": false,
-  "duplicate-properties": false
+  "outline-none": false
 }

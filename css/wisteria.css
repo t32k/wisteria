@@ -1,9 +1,10 @@
-/*
-* wisteria
-* (c) 2015, Koji Ishimoto
-* http://t32k.me/wisteria
-* MIT license.
-*/
+/*------------------------------------*\
+ * wisteria
+ * (c) 2015, Koji Ishimoto
+ * http://t32k.me/wisteria
+ * MIT license.
+\*------------------------------------*/
+
 
 /*------------------------------------*\
 	#BaseStyles
@@ -15,6 +16,7 @@ body {
 	font-weight: 400;
 	line-height: 1.8;
 	color: rgba(0,0,0,.87); }
+
 
 /*------------------------------------*\
 	#Typography
@@ -73,6 +75,7 @@ a:hover { color: #6200EA; }
 	padding: 1rem;
 	border: 1px solid rgba(0,0,0,.12); }
 
+
 /*------------------------------------*\
 	#Blockquote
 \*------------------------------------*/
@@ -102,6 +105,9 @@ a:hover { color: #6200EA; }
 /*------------------------------------*\
 	#Forms
 \*------------------------------------*/
+.checkbox {
+	margin-right: 1rem;
+	vertical-align: middle !important; }
 
 
 
@@ -126,6 +132,7 @@ a:hover { color: #6200EA; }
 	border: 1px solid #651FFF;
 	background: transparent; }
 .button--outline:hover { color: #651FFF; }
+
 
 /*------------------------------------*\
 	#Grids

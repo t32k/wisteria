@@ -11,3 +11,16 @@ body {
   border-radius: .4rem;
   background: #EDE7F6;
 }
+.hero {
+  margin: -3rem -3rem 0;
+  text-align: center;
+  color: #fff;
+  height: 300px;
+  text-shadow: 0 -1px rgba(0,0,0,.25);
+  background: center center url("/img/image.jpg") no-repeat;
+  background-size: cover;
+}
+.inner {
+  background: rgba(0,0,0,.25);
+  height: 300px;
+}

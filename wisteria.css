@@ -228,9 +228,17 @@ a:hover { color: #6200EA; }
 	white-space: nowrap;
 	text-overflow: ellipsis; }
 
+.u-dn { display: none !important; }
+.u-di { display: inline !important; }
+.u-db { display: block !important; }
+.u-vh { visibility: hidden !important; }
+
 .u-fln { float: none !important; }
 .u-fll { float: left !important; }
 .u-flr { float: right !important; }
+
+.u-posr { position: relative !important; }
+.u-posa { position: absolute !important; }
 
 .u-tac { text-align: center !important; }
 .u-tal { text-align: left !important; }
@@ -239,11 +247,6 @@ a:hover { color: #6200EA; }
 .u-ttc { text-transform: capitalize !important; }
 .u-ttu { text-transform: uppercase !important; }
 .u-ttl { text-transform: lowercase !important; }
-
-.u-dn { display: none !important; }
-.u-di { display: inline !important; }
-.u-db { display: block !important; }
-.u-vh { visibility: hidden !important; }
 
 .u-w10 { width: 10% !important; }
 .u-w20 { width: 20% !important; }

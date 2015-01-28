@@ -11,7 +11,7 @@
   "license": "MIT",
   "ignore": [
     ".idea",
-    ".travis.yml,
+    ".travis.yml",
     "wercker.yml"
   ]
 }

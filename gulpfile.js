@@ -24,7 +24,6 @@ gulp.task('build', function() {
   gulp.src('./wisteria.css')
     .pipe($.csslint('.csslintrc'))
     .pipe($.csslint.reporter())
-    .pipe($.csslint.failReporter())
     .pipe($.csscomb())
     .pipe(gulp.dest('./'))
     .pipe($.rename({suffix: '.min'}))

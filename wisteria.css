@@ -48,12 +48,11 @@ a:hover { color: #6200EA; }
 /*------------------------------------*\
 	#images
 \*------------------------------------*/
-
-.img--circle {
+.img--oval {
 	border-radius: 50%;
-	/* http://caniuse.com/#feat=object-fit */
 
 	object-fit: cover; }
+/* http://caniuse.com/#feat=object-fit */
 
 
 /*------------------------------------*\
@@ -117,8 +116,19 @@ a:hover { color: #6200EA; }
 \*------------------------------------*/
 .checkbox {
 	margin-right: 1rem;
-	vertical-align: middle !important; }
-
+	vertical-align: baseline !important; }
+.input,
+.select,
+.textarea {
+	padding: .5rem 1rem;
+	border: 1px solid rgba(0,0,0,.12);
+	border-radius: .4rem;
+	background-color: rgba(0,0,0,0); }
+.input:focus,
+.select:focus,
+.textarea:focus {
+	border: 1px solid #651FFF;
+	outline: 0; }
 
 
 /*------------------------------------*\

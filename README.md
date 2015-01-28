@@ -1,7 +1,5 @@
 # wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria)
 
-![wisteria](img/logo.png)
-
 wisteria.css is a class-attribute based harmless CSS library.
 
 + __Harmless__: wisteria dose not destroy your web page, because have almost class selector style.

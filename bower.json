@@ -1,7 +1,7 @@
 {
   "name": "wisteria",
   "version": "0.4.0",
-  "main": "css/wisteria.css",
+  "main": "wisteria.css",
   "homepage": "https://github.com/t32k/wisteria",
   "authors": "Koji Ishimoto <ijok.ijok@gmail.com>",
   "description": "A class-attribute based harmless CSS library.",
@@ -13,9 +13,6 @@
     "**/.*",
     "gulpfile.js",
     "package.json",
-    "bower_components"
-  ],
-  "dependencies": {
-    "HTML5-Reset": "~2.1.2"
-  }
+    "wercker.yml"
+  ]
 }

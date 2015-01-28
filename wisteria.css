@@ -6,8 +6,7 @@
 \*------------------------------------*/
 
 
-/*------------------------------------*\
-	#BaseStyles
+/*	#BaseStyles
 \*------------------------------------*/
 html { font-size: 62.5%; }
 body {
@@ -18,8 +17,7 @@ body {
 	color: rgba(0,0,0,.87); }
 
 
-/*------------------------------------*\
-	#Typography
+/*	#Typography
 \*------------------------------------*/
 .h1 { font-size: 6.4rem; }
 .h2 { font-size: 4.8rem; }
@@ -37,16 +35,14 @@ body {
 .small { font-size: 1.2rem; }
 
 
-/*------------------------------------*\
-	#Links
+/*	#Links
 \*------------------------------------*/
 a {
 	text-decoration: none;
 	color: #673AB7; }
 a:hover { color: #6200EA; }
 
-/*------------------------------------*\
-	#images
+/*	#Images
 \*------------------------------------*/
 .img--oval {
 	border-radius: 50%;
@@ -55,8 +51,7 @@ a:hover { color: #6200EA; }
 /* http://caniuse.com/#feat=object-fit */
 
 
-/*------------------------------------*\
-	#Lists
+/*	#Lists
 \*------------------------------------*/
 .ul { list-style: disc inside; }
 .ol { list-style: decimal inside; }
@@ -72,8 +67,7 @@ a:hover { color: #6200EA; }
 .ul .ul { list-style-type: circle; }
 
 
-/*------------------------------------*\
-	#Tables
+/*	#Tables
 \*------------------------------------*/
 .table th {
 	font-weight: bold;
@@ -85,16 +79,14 @@ a:hover { color: #6200EA; }
 	border: 1px solid rgba(0,0,0,.12); }
 
 
-/*------------------------------------*\
-	#Blockquote
+/*	#Blockquote
 \*------------------------------------*/
 .blockquote {
 	padding: 1rem 2rem;
 	border-left: .4rem solid rgba(0,0,0,.12); }
 
 
-/*------------------------------------*\
-	#Code
+/*	#Code
 \*------------------------------------*/
 .code {
 	font-family: Consolas, Courier, monospace;
@@ -111,8 +103,7 @@ a:hover { color: #6200EA; }
 	letter-spacing: -.2rem; }
 
 
-/*------------------------------------*\
-	#Forms
+/*	#Forms
 \*------------------------------------*/
 .checkbox {
 	margin-right: 1rem;
@@ -131,8 +122,7 @@ a:hover { color: #6200EA; }
 	outline: 0; }
 
 
-/*------------------------------------*\
-	#Buttons
+/*	#Buttons
 \*------------------------------------*/
 .button {
 	font-size: inherit;
@@ -154,8 +144,7 @@ a:hover { color: #6200EA; }
 .button--outline:hover { color: #651FFF; }
 
 
-/*------------------------------------*\
-	#Grids
+/*	#Grids
 \*------------------------------------*/
 .g-row {
 	display: -webkit-flex;
@@ -178,8 +167,7 @@ a:hover { color: #6200EA; }
 		        flex: 1; } }
 
 
-/*------------------------------------*\
-	#HorizontalRule
+/*	#HorizontalRule
 \*------------------------------------*/
 .hr {
 	border: 0;
@@ -189,8 +177,7 @@ a:hover { color: #6200EA; }
 
 
 
-/*------------------------------------*\
-	#Spacing
+/*	#Spacing
 \*------------------------------------*/
 .u-ma { margin: auto !important; }
 .u-mtn { margin-top: 0 !important; }
@@ -218,8 +205,7 @@ a:hover { color: #6200EA; }
 .u-pn { padding: 0 !important; }
 
 
-/*------------------------------------*\
-	#Utilities
+/*	#Utilities
 \*------------------------------------*/
 .u-cf {
 	display: table;

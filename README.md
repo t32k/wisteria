@@ -4,7 +4,7 @@ wisteria.css is a class-attribute based harmless CSS library.
 
 + __Harmless__: wisteria dose not destroy your web page, because have almost class selector style.
 + __Helper__:  wisteria has a bunch of [Emmet](http://docs.emmet.io/cheat-sheet/)-like utility classes.
-+ __Hi-Speed__: You can make a mock-up site rapidly.
++ __Hi-Control__: You can make a mock-up site rapidly.
 
 ## Install
 

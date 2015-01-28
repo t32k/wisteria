@@ -5,8 +5,9 @@
 * MIT license.
 */
 
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#BaseStyles
+\*------------------------------------*/
 html { font-size: 62.5%; }
 body {
 	font-family: "Noto Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,8 +16,9 @@ body {
 	line-height: 1.8;
 	color: rgba(0,0,0,.87); }
 
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#Typography
+\*------------------------------------*/
 .h1 { font-size: 6.4rem; }
 .h2 { font-size: 4.8rem; }
 .h3 { font-size: 3.6rem; }
@@ -33,15 +35,18 @@ body {
 .small { font-size: 1.2rem; }
 
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#Links
+\*------------------------------------*/
 a {
 	text-decoration: none;
 	color: #673AB7; }
 a:hover { color: #6200EA; }
 
-/* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*------------------------------------*\
+	#Lists
+\*------------------------------------*/
 .ul { list-style: disc inside; }
 .ol { list-style: decimal inside; }
 
@@ -55,12 +60,10 @@ a:hover { color: #6200EA; }
 
 .ul .ul { list-style-type: circle; }
 
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.color {
-	font-size: 10px;
-	color: red;
-	background: red; }
+
+/*------------------------------------*\
+	#Tables
+\*------------------------------------*/
 .table th {
 	font-weight: bold;
 	background-color: rgba(0,0,0,.04); }
@@ -70,15 +73,17 @@ a:hover { color: #6200EA; }
 	padding: 1rem;
 	border: 1px solid rgba(0,0,0,.12); }
 
-/* Blockquote
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#Blockquote
+\*------------------------------------*/
 .blockquote {
 	padding: 1rem 2rem;
 	border-left: .4rem solid rgba(0,0,0,.12); }
 
 
-/* Code
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#Code
+\*------------------------------------*/
 .code {
 	font-family: Consolas, Courier, monospace;
 	padding: .2rem 0;
@@ -93,8 +98,16 @@ a:hover { color: #6200EA; }
 	content: "\00a0";
 	letter-spacing: -.2rem; }
 
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*------------------------------------*\
+	#Forms
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	#Buttons
+\*------------------------------------*/
 .button {
 	font-size: inherit;
 	line-height: 4.2rem;
@@ -114,8 +127,9 @@ a:hover { color: #6200EA; }
 	background: transparent; }
 .button--outline:hover { color: #651FFF; }
 
-/* Grids
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#Grids
+\*------------------------------------*/
 .g-row {
 	display: -webkit-flex;
 	display:         flex;
@@ -137,8 +151,9 @@ a:hover { color: #6200EA; }
 		        flex: 1; } }
 
 
-/* Horizontal Rule
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#HorizontalRule
+\*------------------------------------*/
 .hr {
 	border: 0;
 	border-top: 1px solid rgba(0,0,0,.12); }
@@ -146,9 +161,10 @@ a:hover { color: #6200EA; }
 	border-top-style: dashed; }
 
 
-/* Spacing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/*------------------------------------*\
+	#Spacing
+\*------------------------------------*/
 .u-ma { margin: auto !important; }
 .u-mtn { margin-top: 0 !important; }
 .u-mts { margin-top: .4rem !important; }
@@ -175,8 +191,9 @@ a:hover { color: #6200EA; }
 .u-pn { padding: 0 !important; }
 
 
-/* Utilities
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*------------------------------------*\
+	#Utilities
+\*------------------------------------*/
 .u-cf {
 	display: table;
 	clear: both;

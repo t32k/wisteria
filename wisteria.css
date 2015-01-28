@@ -45,6 +45,16 @@ a {
 	color: #673AB7; }
 a:hover { color: #6200EA; }
 
+/*------------------------------------*\
+	#images
+\*------------------------------------*/
+
+.img--circle {
+	border-radius: 50%;
+	/* http://caniuse.com/#feat=object-fit */
+
+	object-fit: cover; }
+
 
 /*------------------------------------*\
 	#Lists

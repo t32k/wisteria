@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path id="shipping-box-2-icon" d="M235.328,50.334L71.613,144.856v197.226L276.97,461.666l163.417-95.143V169.299L235.328,50.334z
+	 M397.19,178.922l-44.827,24.826l-159.416-94.303l42.345-24.448L397.19,178.922z M261,417.686L101.257,324.84V178.98L261,271.447
+	V417.686z M276.504,245.76l-159.478-92.482l46.102-26.617l158.804,93.941L276.504,245.76z M410.459,349.275L291,418.824V272.025
+	l119.459-66.158V349.275z M321.13,370.637l-0.1-29.369l5.85-3.406v29.426L321.13,370.637z M383.09,334.562l-4.84,2.818v-29.426
+	l5.75-3.348v29.42L383.09,334.562z M360.057,347.973l-5.75,3.348v-29.426l5.75-3.348V347.973z M369.844,342.275l-5.851,3.406
+	v-29.426l5.851-3.406V342.275z M350.438,353.572l-5.756,3.352v-29.426l5.756-3.352V353.572z M336.666,361.59l-5.75,3.348v-29.426
+	l5.75-3.348V361.59z"/>
+</svg>

@@ -24,3 +24,7 @@ gulp.task('report', function () {
   gulp.src('./wisteria.css')
     .pipe($.stylestats());
 });
+
+gulp.task('watch', function() {
+  gulp.watch('./*.css', ['default']);
+});

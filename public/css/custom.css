@@ -1,5 +1,5 @@
 body {
-  margin: 3rem;
+  margin: 0 3rem;
 }
 .container {
   margin: auto;
@@ -12,11 +12,10 @@ body {
   background: #EDE7F6;
 }
 .hero {
-  margin: -3rem -3rem 0;
+  margin: 0 -3rem;
   text-align: center;
   color: #fff;
   height: 300px;
-  text-shadow: 0 -1px rgba(0,0,0,.25);
   background: center center url("../img/image.jpg") no-repeat;
   background-size: cover;
 }

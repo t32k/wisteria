@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>wisteria</title>
+  <title>wisteria.css - A class-attribute based harmless CSS library.</title>
   <meta name="description" content="A class-attribute based harmless CSS library.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/html5-reset.css">
@@ -16,7 +16,7 @@
 
 <header class="hero">
   <div class="inner">
-    <h1 class="h1">wisteria</h1>
+    <h1 class="h1 u-ptl">wisteria</h1>
     <p class="u-fz4">A class-attribute based harmless CSS library.</p>
     <p class="b u-mbx">v0.5.0</p>
     <p><a href="https://github.com/t32k/wisteria/archive/master.zip" class="button">Download Wisteria</a></p>
@@ -109,30 +109,44 @@
     <div>Lorem ipsum <a href="#">anchor</a> amet, id his <span class="strong">strong</span> malorum, dictas euripidis pri et, at his <span class="weak">weak</span> dolorum. Eam in nihil elaboraret, eum facete <span class="del">del</span> adversarium <span class="em">em</span> quem odio. Ei recteque postulant persecuti vix. His id <span class="small">small</span> falli omnesque, dicam electram id est, his possim temporibus ei.</div>
   </section>
 
+
   <hr class="hr u-mtx u-mbx">
 
 
   <h3 class="h3 u-mbm">Horizontal Rule</h3>
   <section>
-    <hr class="hr u-mbx">
-    <hr class="hr hr--dashed u-mbx">
+    <hr class="hr u-mbl">
+    <hr class="hr hr--dashed u-mbl">
+    <pre><code class="html">&lt;hr class=&quot;hr&quot;&gt;
+      &lt;hr class=&quot;hr hr--dashed&quot;&gt;</code></pre>
   </section>
+
 
   <hr class="hr u-mtx u-mbx">
 
 
-  <h3 class="h3">Images</h3>
+  <h3 class="h3 u-mbm">Images</h3>
   <section>
-    <img src="img/image.jpg" alt="">
-    <img src="img/type.jpg" width="100" height="100" class="img--oval" alt="">
+    <div class="g-row u-mbx">
+      <div class="g-col"><img src="img/sunset.jpg" alt=""></div>
+      <div class="g-col"><img src="img/sunset.jpg" alt=""></div>
+    </div>
+    <div class="g-row u-tac">
+      <div class="g-col"><img src="img/typewriter.jpg" width="100" height="100" class="img--oval" alt=""></div>
+      <div class="g-col"><img src="img/typewriter.jpg" width="100" height="100" class="img--oval" alt=""></div>
+      <div class="g-col"><img src="img/typewriter.jpg" width="100" height="100" class="img--oval" alt=""></div>
+      <div class="g-col"><img src="img/typewriter.jpg" width="100" height="100" class="img--oval" alt=""></div>
+    </div>
+    <pre><code class="html">&lt;img src=&quot;sunset.jpg&quot; alt&gt;
+      &lt;img src=&quot;typewriter.jpg&quot; width=&quot;100&quot; height=&quot;100&quot; class=&quot;img--oval&quot; alt&gt;</code></pre>
   </section>
+
 
   <hr class="hr u-mtx u-mbx">
 
 
-  <div class="h3 u-mtx u-mbx">Lists</div>
+  <div class="h3 u-mbm">Lists</div>
   <section>
-
     <ul class="ul">
       <li>item</li>
       <li>item
@@ -143,9 +157,16 @@
       </li>
       <li>item</li>
     </ul>
-
-    <hr class="hr hr--dashed u-mtm u-mbm">
-
+    <pre><code class="html">&lt;ul class=&quot;ul&quot;&gt;
+      &nbsp;&nbsp;&lt;li&gt;item&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;ul&quot;&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+      &nbsp;&nbsp;&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item&lt;/li&gt;
+      &lt;/ul&gt;</code></pre>
     <ol class="ol">
       <li>item</li>
       <li>item
@@ -161,23 +182,50 @@
       </li>
       <li>item</li>
     </ol>
+    <pre><code class="html">&lt;ol class=&quot;ol&quot;&gt;
+      &nbsp;&nbsp;&lt;li&gt;item&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;ol&quot;&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;ul&quot;&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;third item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;third item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;
+      &nbsp;&nbsp;&lt;/ul&gt;
+      &nbsp;&nbsp;&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item&lt;/li&gt;
+      &lt;/ol&gt;</code></pre>
   </section>
 
+
   <hr class="hr u-mtx u-mbx">
-  <h3 class="h3">Forms</h3>
-  <div class="u-mbm">
-    <input type="checkbox" class="checkbox">Checkbox</div>
-  <div class="u-mbm">
-    <input type="email" placeholder="test@mail.com" class="input"></div>
-  <div class="u-mbm">
-    <textarea class="textarea" placeholder="Hi.."></textarea></div>
-  <div class="u-mbm">
+
+
+  <h3 class="h3 u-mbm">Forms</h3>
+  <section>
+    <input type="checkbox" class="checkbox">Checkbox
+    <pre class="u-mbx"><code class="html">&lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;Checkbox&lt;/div&gt;</code></pre>
+
+    <input type="email" placeholder="test@mail.com" class="input">
+    <pre class="u-mbx"><code class="html">&lt;input type=&quot;email&quot; placeholder=&quot;test@mail.com&quot; class=&quot;input&quot;&gt;&lt;/div&gt;</code></pre>
+
+    <textarea class="textarea" placeholder="Hi.."></textarea>
+    <pre class="u-mbx"><code class="html">&lt;textarea placeholder=&quot;Hi..&quot; class=&quot;textarea&quot;&gt;&lt;/textarea&gt;</code></pre>
+
     <select class="select">
       <option value="Option 1">Questions</option>
       <option value="Option 2">Admiration</option>
       <option value="Option 3">Can I get your number?</option>
     </select>
-  </div>
+    <pre><code class="html">&lt;select class=&quot;select&quot;&gt;
+      &lt;option value=&quot;Option01&quot;&gt;Option 01&lt;/option&gt;
+      &lt;option value=&quot;Option02&quot;&gt;Option 02&lt;/option&gt;
+      &lt;option value=&quot;Option03&quot;&gt;Option 03&lt;/option&gt;
+      &lt;/select&gt;
+    </code></pre>
+  </section>
 
 
   <hr class="hr u-mtx u-mbx">
@@ -185,17 +233,23 @@
 
   <h3 class="h3 u-mbm">Buttons</h3>
   <section>
-    <p class="u-mbm">
-      <a href="" class="button">Link</a>
+    <div class="u-mbm">
+      <a href="#" class="button">Link</a>
       <button class="button">Button</button>
       <input type="submit" class="button" value="Submit">
-    </p>
-
-    <p class="u-mbm">
-      <a href="" class="button button--outline">Link</a>
+    </div>
+    <div class="u-mbm">
+      <a href="#" class="button button--outline">Link</a>
       <button class="button button--outline">Button</button>
       <input type="submit" class="button button--outline" value="Submit">
-    </p>
+    </div>
+    <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Link&lt;/a&gt;
+      &lt;button class=&quot;button&quot;&gt;Button&lt;/button&gt;
+      &lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;Submit&quot;&gt;
+
+      &lt;a href=&quot;#&quot; class=&quot;button button--outline&quot;&gt;Link&lt;/a&gt;
+      &lt;button class=&quot;button button--outline&quot;&gt;Button&lt;/button&gt;
+      &lt;input type=&quot;submit&quot; class=&quot;button button--outline&quot; value=&quot;Submit&quot;&gt;</code></pre>
   </section>
 
 
@@ -204,8 +258,15 @@
 
   <h3 class="h3 u-mbm">Code</h3>
   <section>
-    <pre class="pre u-mbm"><code class="code">&lt;p&gt;ssssssss&lt;/p&gt;</code></pre>
-    <p>Lorem ipsum dolor <code class="code">.love { color: black }</code> amet, id his idque malorum, dictas euripidis pri et, at his homero dolorum. Eam in nihil elaboraret, eum facete definiebas adversarium quem odio. Ei recteque postulant persecuti vix. His id modo falli omnesque, dicam electram id est, his possim temporibus ei.</p>
+    <p class="u-mbm">This is <code class="code">.inline-code { color: red }</code>.</p>
+    <pre class="pre"><code class="code nohighlight">function func() {
+    &nbsp;&nbsp;console.log('Hello World!');
+      }</code></pre>
+    <pre><code class="html">This is &lt;code class=&quot;code&quot;&gt;.inline-code { color: red }&lt;/code&gt;.
+
+      &lt;pre class=&quot;pre&quot;&gt;&lt;code class=&quot;code&quot;&gt;function func() {
+      &amp;nbsp;&amp;nbsp;console.log(&#039;Hello World!&#039;);
+      }&lt;/code&gt;&lt;/pre&gt;</code></pre>
   </section>
 
 
@@ -237,16 +298,41 @@
         <td>Data</td>
       </tr>
     </table>
+    <pre><code class="html">&lt;table class=&quot;table&quot;&gt;
+      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;table class=&quot;table&quot;&gt;
+      &lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;
+      &lt;th&gt;Header&lt;/th&gt;
+      &lt;th&gt;Header&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/table&gt;</code></pre>
   </section>
+
 
   <hr class="hr u-mtx u-mbx">
 
+
   <h3 class="h3 u-mbm">Blockquote</h3>
   <blockquote class="blockquote u-mbm">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
   </blockquote>
   <pre><code class="html">&lt;blockquote class=&quot;blockquote&quot;&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
     &lt;/blockquote&gt;
   </code></pre>
 

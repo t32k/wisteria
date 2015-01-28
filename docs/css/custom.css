@@ -15,11 +15,11 @@ body {
   margin: 0 -3rem;
   text-align: center;
   color: #fff;
-  height: 350px;
+  height: 400px;
   background: center center url("../img/image.jpg") no-repeat;
   background-size: cover;
 }
 .inner {
   background: rgba(0,0,0,.4);
-  height: 350px;
+  height: 400px;
 }

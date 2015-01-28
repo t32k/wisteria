@@ -17,6 +17,14 @@ body {
 	color: rgba(0,0,0,.87); }
 
 
+/*	#Links
+\*------------------------------------*/
+a {
+	text-decoration: none;
+	color: #673AB7; }
+a:hover { color: #6200EA; }
+
+
 /*	#Typography
 \*------------------------------------*/
 .h1,
@@ -46,13 +54,6 @@ body {
 .em { font-style: italic; }
 .del { text-decoration: line-through; }
 
-
-/*	#Links
-\*------------------------------------*/
-a {
-	text-decoration: none;
-	color: #673AB7; }
-a:hover { color: #6200EA; }
 
 /*	#Images
 \*------------------------------------*/

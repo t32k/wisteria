@@ -1,6 +1,6 @@
 {
   "name": "wisteria",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A class selectors based harmless CSS library.",
   "main": "wisteria.css",
   "scripts": {

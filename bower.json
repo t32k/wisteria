@@ -5,6 +5,7 @@
   "homepage": "https://github.com/t32k/wisteria",
   "authors": "Koji Ishimoto <ijok.ijok@gmail.com>",
   "description": "A class selectors based harmless CSS library.",
+  "directory": "~/docs/css",
   "keywords": [
     "css"
   ],

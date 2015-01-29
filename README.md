@@ -1,10 +1,10 @@
 # wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria) [![wercker status](https://app.wercker.com/status/fff7cc4c5446d5b16065e8f93a79309e/s/master "wercker status")](https://app.wercker.com/project/bykey/fff7cc4c5446d5b16065e8f93a79309e)
 
-wisteria.css is a class-attribute based harmless CSS library.
+wisteria.css is a class selectors based harmless CSS library.
 
-+ __Harmless__: wisteria dose not destroy your web page, because have almost class selector style.
-+ __Helper__:  wisteria has a bunch of [Emmet](http://docs.emmet.io/cheat-sheet/)-like utility classes.
-+ __Hi-Control__: You can make a mock-up site rapidly.
++ __Harmless__: Wisteria dose not destroy your web page style, because have only class selectors. HTML5-Rest just reset the style.
++ __Helper__: Wisteria has a bunch of Emmet-like utility classes. It means you do not have to learn the namig rules.
++ __Hi-Control__: Wisteria's grid implements simple and modern Flexbox layout, so you make a mockup site with less typing rapidly.
 
 ## Install
 
@@ -25,7 +25,7 @@ Include the wisteria.css and [HTML5-Rest](https://github.com/murtaugh/HTML5-Rese
 
 + Google Chrome (latest)
 + Mozilla Firefox (latest)
-+ Internet Explorer (latest)
++ Internet Explorer (latest) maybe...
 + Opera (latest)
 + Apple Safari (latest)
 

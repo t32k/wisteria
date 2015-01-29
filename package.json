@@ -1,7 +1,7 @@
 {
   "name": "wisteria",
-  "version": "0.5.0",
-  "description": "A class-attribute based harmless CSS library.",
+  "version": "0.6.0",
+  "description": "A class selectors based harmless CSS library.",
   "main": "wisteria.css",
   "scripts": {
     "test": "gulp test"

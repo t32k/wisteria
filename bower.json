@@ -1,10 +1,10 @@
 {
   "name": "wisteria",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "main": "wisteria.css",
   "homepage": "https://github.com/t32k/wisteria",
   "authors": "Koji Ishimoto <ijok.ijok@gmail.com>",
-  "description": "A class-attribute based harmless CSS library.",
+  "description": "A class selectors based harmless CSS library.",
   "keywords": [
     "css"
   ],
@@ -13,5 +13,8 @@
     ".idea",
     ".travis.yml",
     "wercker.yml"
-  ]
+  ],
+  "dependencies": {
+    "HTML5-Reset": "~2.1.2"
+  }
 }

@@ -26,9 +26,10 @@ gulp.task('build', function() {
     .pipe($.csslint.reporter())
     .pipe($.csscomb())
     .pipe(gulp.dest('./'))
+    .pipe(gulp.dest('./docs/css/'))
     .pipe($.rename({suffix: '.min'}))
-    .pipe($.csso())
-    .pipe(gulp.dest('./docs/css/'));
+    .pipe($.csso({banner:}))
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('default',  ['browser-sync'], function() {

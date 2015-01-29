@@ -123,7 +123,11 @@ a:hover { color: #4527A0; }
 	padding: .5rem 1rem;
 	border: 1px solid rgba(0,0,0,.12);
 	border-radius: .4rem;
-	background-color: rgba(0,0,0,0); }
+	background-color: rgba(0,0,0,0);
+
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none; }
 .input:focus,
 .select:focus,
 .textarea:focus {
@@ -143,7 +147,11 @@ a:hover { color: #4527A0; }
 	color: #FFFFFF;
 	border: 0;
 	border-radius: .4rem;
-	background: #651FFF; }
+	background: #651FFF;
+
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none; }
 .button:hover {
 	color: #FFFFFF;
 	background: #4527A0; }

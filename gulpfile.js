@@ -28,7 +28,7 @@ gulp.task('build', function() {
     .pipe(gulp.dest('./'))
     .pipe(gulp.dest('./docs/css/'))
     .pipe($.rename({suffix: '.min'}))
-    .pipe($.csso({banner:}))
+    .pipe($.csso())
     .pipe(gulp.dest('./'));
 });
 

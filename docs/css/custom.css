@@ -15,7 +15,7 @@ body {
   text-align: center;
   color: #fff;
   height: 400px;
-  background: #4527A0 url("/img/hero.jpg") center center no-repeat;
+  background: #4527A0 url("http://t32k.me/wisteria/img/hero.jpg") center center no-repeat;
   background-size: cover;
 }
 .inner {

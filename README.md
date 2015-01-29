@@ -2,9 +2,11 @@
 
 Wisteria.css is a class selectors based harmless CSS library.
 
-+ __Harmless__: Wisteria dose not destroy your web page style, because has only class selectors. HTML5-Rest just reset the style.
-+ __Helper__: Wisteria has a bunch of Emmet-like utility classes. It means you do not have to learn the namig rules.
-+ __Hi-Control__: Wisteria's grid implements simple and modern Flexbox layout, so you make a mockup site with less typing rapidly.
++ __Harmless__: Wisteria dose not destroy your web page style, because has only class selectors. [HTML5-Reset](https://github.com/murtaugh/HTML5-Reset) just reset the style.
++ __Helper__: Wisteria has a bunch of [Emmet](http://docs.emmet.io/cheat-sheet/)-like utility classes. It means you do not have to learn the namig rules.
++ __Hi-Control__: Wisteria's grid implements simple and modern [Flexbox](http://philipwalton.github.io/solved-by-flexbox/demos/grids/) layout, so you make a mockup site with less typing rapidly.
+
+[View documents site](http://t32k.me/wisteria/).
 
 ## Install
 
@@ -14,7 +16,7 @@ Wisteria.css is a class selectors based harmless CSS library.
 
 ## Getting started
 
-Include the wisteria.css and [HTML5-Rest](https://github.com/murtaugh/HTML5-Reset).css files in your site.
+Include the wisteria.css and [HTML5-Rest.css](https://github.com/murtaugh/HTML5-Reset) files in your site.
 
 ```html
 <link rel="stylesheet" href="css/html5-reset.css">

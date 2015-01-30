@@ -42,9 +42,15 @@ a:hover { color: #4527A0; }
 	-webkit-flex: none !important;
 	        flex: none !important; }
 
-.g-row--top { align-items: flex-start; }
-.g-row--bottom { align-items: flex-end; }
-.g-row--center { align-items: center; }
+.g-row--top {
+	-webkit-align-items: flex-start;
+	        align-items: flex-start; }
+.g-row--bottom {
+	-webkit-align-items: flex-end;
+	        align-items: flex-end; }
+.g-row--center {
+	-webkit-align-items: center;
+	        align-items: center; }
 
 @media (min-width: 550px) {
 	.g-col {

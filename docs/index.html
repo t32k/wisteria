@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:image" content="http://t32k.me/wisteria/img/hero.jpg">
   <link rel="canonical" href="http://t32k.me/wisteria/">
-  <link rel="stylesheet" href="css/HTML5-Reset/assets/css/reset.css">
+  <link rel="stylesheet" href="css/html5-reset.css">
   <link rel="stylesheet" href="css/wisteria.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -50,13 +50,13 @@
   <div class="g-row u-mbx">
     <div class="g-col u-mbm">
       <p class="u-fll"><img src="img/t32k.jpg" width="80" height="80" class="img--oval" alt></p>
-      <blockquote class="blockquote" style="margin-left:100px"><p>Wisteria.css is a tool for design in the browser to make a mockup or personal projects not large system. You just focus on your HTML using utility classes.</p>
+      <blockquote class="blockquote comment"><p>Wisteria.css is a tool for design in the browser to make a mockup or personal projects not large system. You just focus on your HTML using utility classes.</p>
         <footer class="small">- <a href="https://twitter.com/kojismt" class="b">Koji Ishimoto</a>, Web Developer</footer>
       </blockquote>
     </div>
     <div class="g-col">
       <p class="u-fll"><img src="img/hiloki.jpg" width="80" height="80" class="img--oval" alt></p>
-      <blockquote class="blockquote" style="margin-left:100px" ><p>You can make a modern minimum web page in no time if you have some nice pictures, icons and Wistera.css. Without writing a lot of CSS.</p>
+      <blockquote class="blockquote comment"><p>You can make a modern minimum web page in no time if you have some nice pictures, icons and Wistera.css. Without writing a lot of CSS.</p>
         <footer class="small">- <a href="https://twitter.com/hiloki" class="b">Hiroki Tani</a>, Front-end Engineer</footer>
       </blockquote>
     </div>
@@ -68,7 +68,7 @@
 
   <h2 class="h2">Getting started</h2>
   <section>
-    <p>Include the Wisteria.css and <a href="https://github.com/murtaugh/HTML5-Reset" class="b">HTML5-Reset.css</a files in your site.</p>
+    <p>Include the Wisteria.css and <a href="https://github.com/murtaugh/HTML5-Reset" class="b">HTML5-Reset.css</a> files in your site.</p>
     <pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/html5-reset.css&quot;&gt;
       &lt;link rel=&quot;stylesheet&quot; href=&quot;css/wisteria.css&quot;&gt;</code></pre>
   </section>
@@ -499,10 +499,13 @@
   <p role="contentinfo">Wisteria.css is a project by <a href="https://github.com/t32k">Koji Ishimoto</a></p>
 </footer>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <script src="js/highlight.pack.js"></script>
 <script>
+  // Syntax Hilight
   hljs.initHighlightingOnLoad();
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  // Google Analytics
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

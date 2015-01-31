@@ -22,7 +22,9 @@ body {
   background: rgba(0,0,0,.25);
   height: 400px;
 }
-
+.comment {
+    margin-left: 100px;
+}
 /*
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 */

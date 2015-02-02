@@ -17,7 +17,7 @@
   <div class="inner">
     <h1 class="h1 u-ptl">Wisteria</h1>
     <p class="u-fz4">A class selectors based harmless CSS library.</p>
-    <p class="b u-mbx">v0.8.0</p>
+    <p class="b u-mbx">v0.9.0</p>
     <p><a href="https://github.com/t32k/wisteria/archive/master.zip" class="button">Download Wisteria</a></p>
   </div>
 </header>
@@ -163,21 +163,29 @@
       .h4, .u-fz4 { font-size: 2.4rem; }
       .h5, .u-fz5 { font-size: 2.0rem; }
       .h6, .u-fz6 { font-size: 1.8rem; }
-      .u-fz7 {  font-size: 1.6rem; }&nbsp;&nbsp;/* Base font-size */
-      .u-fz8 {  font-size: 1.4rem; }
-      .small, .u-fz9 {  font-size: 1.2rem; }
-      .u-fz10 {  font-size: 1rem; }</code></pre>
+      .u-fz7 { font-size: 1.6rem; }&nbsp;&nbsp;/* Base font-size */
+      .u-fz8 { font-size: 1.4rem; }
+      .small, .u-fz9 { font-size: 1.2rem; }
+      .u-fz10 { font-size: 1rem; }</code></pre>
 
     <div class="h6 u-mtx u-mbs">Phrasing content</div>
-    <div>Lorem ipsum <a href="#">anchor</a> amet, id his <span class="strong">strong</span> malorum, dictas euripidis pri et, at his <span class="weak">weak</span> dolorum. Eam in nihil elaboraret, eum facete <span class="del">delete</span> adversarium <span class="em">emphasize</span> quem odio. Ei recteque postulant persecuti vix. His id <span class="small">small</span> falli omnesque, dicam electram id est, his possim temporibus ei.</div>
-    <pre><code class="html">&lt;a href=&quot;#&quot;&gt;anchor&lt;/a&gt;
-      &lt;span class=&quot;b&quot;&gt;bold&lt;/span&gt;
-      &lt;span class=&quot;strong&quot;&gt;strong&lt;/span&gt;
-      &lt;span class=&quot;weak&quot;&gt;weak&lt;/span&gt;
-      &lt;span class=&quot;del&quot;&gt;delete&lt;/span&gt;
-      &lt;span class=&quot;em&quot;&gt;emphasize&lt;/span&gt;
-      &lt;span class=&quot;i&quot;&gt;italic&lt;/span&gt;
-      &lt;span class=&quot;small&quot;&gt;small&lt;/span&gt;
+    <div class="u-mbm">Lorem ipsum <a href="#">anchor</a> amet, id his <span class="strong">strong</span> malorum, dictas euripidis pri et, at his <span class="weak">weak</span> dolorum. Eam in nihil elaboraret, eum facete <span class="del">delete</span> adversarium <span class="em">emphasize</span> quem odio. Ei recteque postulant persecuti vix. His id <span class="small">small</span> falli omnesque, dicam electram id est, his possim temporibus ei.</div>
+    <pre><code class="html">&lt;p&gt;
+      &nbsp;&nbsp;&lt;a href=&quot;#&quot;&gt;anchor&lt;/a&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;b&quot;&gt;bold&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;strong&quot;&gt;strong&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;weak&quot;&gt;weak&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;del&quot;&gt;delete&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;em&quot;&gt;emphasize&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;i&quot;&gt;italic&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;small&quot;&gt;small&lt;/span&gt;
+      &lt;/p&gt;
+    </code></pre>
+    <p class="u-mbm"><span class="dummy"></span></p>
+    <p class="u-tov"><span class="dummy"></span></p>
+    <pre><code class="html">&lt;!-- // A pseudo-element(:after)　of .dummy has Lorem ipsum texts. --&gt;
+      &lt;p&gt;&lt;span class=&quot;dummy&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;p class=&quot;u-tov&quot;&gt;&lt;span class=&quot;dummy&quot;&gt;&lt;/span&gt;&lt;/p&gt;
     </code></pre>
   </section>
 

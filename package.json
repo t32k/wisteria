@@ -5,7 +5,7 @@
   "main": "wisteria.css",
   "scripts": {
     "test": "gulp test",
-    "record": "moniteur record",
+    "record": "node_modules/moniteur/bin/moniteur record",
     "postinstall": "bower install"
   },
   "repository": {

@@ -1,6 +1,6 @@
 {
  "assets": {
     "Wisteria.css": "wisteria.css",
-    "Source": "dummy.js"
+    "Source": "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"
   }
 }

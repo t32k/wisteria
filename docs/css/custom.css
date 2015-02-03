@@ -24,7 +24,27 @@
 .comment {
     margin-left: 100px;
 }
-
+.header {
+    position: relative;
+}
+.header:hover > a {
+    visibility: visible;
+}
+.header > a {
+    visibility: hidden;
+    position: absolute;
+    top: 33%;
+    left: -3rem;
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background:  url("/img/link.svg") no-repeat;
+    background-size: cover;
+    transition-property: visibility;
+    transition-duration: .2s;
+    transition-delay: 0;
+    transition-timing-function: linear;
+}
 
 
 /* github.com style (c) Vasily Polovnyov <vast@whiteants.net> */

@@ -38,7 +38,7 @@
     display: inline-block;
     width: 2.4rem;
     height: 2.4rem;
-    background:  url("/img/link.svg") no-repeat;
+    background:  url("http://t32k.me/wisteria/img/link.svg") no-repeat;
     background-size: cover;
     transition-property: visibility;
     transition-duration: .2s;

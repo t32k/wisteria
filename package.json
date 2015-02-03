@@ -1,7 +1,7 @@
 {
   "name": "wisteria",
   "version": "0.10.0",
-  "description": "A class selectors based harmless CSS library.",
+  "description": "The best HTML-driven tool for designing in the browser.",
   "main": "wisteria.css",
   "scripts": {
     "test": "gulp test",

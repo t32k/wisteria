@@ -205,6 +205,8 @@ textarea { font-size: inherit; }
 
 .ul .ul { list-style-type: circle; }
 
+.ul--inline > li { display: inline; }
+
 
 /*	#Blockquote
 \*------------------------------------*/

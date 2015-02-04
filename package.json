@@ -1,7 +1,7 @@
 {
   "name": "wisteria",
   "version": "0.10.0",
-  "description": "The best HTML-driven tool for designing in the browser.",
+  "description": "The best HTML-driven tool for designing in browser.",
   "main": "wisteria.css",
   "scripts": {
     "test": "gulp test",

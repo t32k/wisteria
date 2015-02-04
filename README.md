@@ -1,6 +1,6 @@
 # Wisteria [![Build Status](https://travis-ci.org/t32k/wisteria.svg)](https://travis-ci.org/t32k/wisteria) [![wercker status](https://app.wercker.com/status/fff7cc4c5446d5b16065e8f93a79309e/s/master "wercker status")](https://app.wercker.com/project/bykey/fff7cc4c5446d5b16065e8f93a79309e)
 
-Wisteria.css is the best HTML-driven tool for designing in the browser.
+Wisteria.css is the best HTML-driven tool for designing in browser.
 
 + __Hi-Control__: Wisteria's grid implements simple and modern [Flexbox](http://philipwalton.github.io/solved-by-flexbox/demos/grids/) layout, so you can make a mockup site with less typing rapidly.
 + __Helper__: Wisteria has a bunch of [Emmet](http://docs.emmet.io/cheat-sheet/)-like utility classes. It means you do not have to learn the namig rules.

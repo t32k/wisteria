@@ -46,7 +46,9 @@
     transition-timing-function: linear;
 }
 
-
+.box > .g-col {
+    padding: 2rem 0;
+}
 /* github.com style (c) Vasily Polovnyov <vast@whiteants.net> */
 
 

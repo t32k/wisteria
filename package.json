@@ -1,6 +1,6 @@
 {
   "name": "wisteria",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "The best HTML-driven prototyping tool for designing in browser.",
   "main": "wisteria.css",
   "scripts": {

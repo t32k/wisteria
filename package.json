@@ -4,7 +4,7 @@
   "description": "The best HTML-driven prototyping tool for designing in browser.",
   "main": "wisteria.css",
   "scripts": {
-    "test": "gulp test",
+    "test": "stylestats wisteria.css -s specs.json",
     "postinstall": "bower install"
   },
   "repository": {
@@ -21,14 +21,15 @@
   },
   "homepage": "https://github.com/t32k/wisteria",
   "devDependencies": {
-    "gulp": "^3.8.10",
     "browser-sync": "^1.9.1",
+    "gulp": "^3.8.10",
     "gulp-csscomb": "^3.0.3",
     "gulp-csslint": "^0.1.5",
     "gulp-csso": "^0.2.9",
     "gulp-load-plugins": "^0.8.0",
     "gulp-rename": "^1.2.0",
-    "gulp-stylestats": "^0.4.1"
+    "gulp-stylestats": "^0.4.1",
+    "stylestats": "^5.0.0-alpha"
   },
   "dependencies": {
     "bower": "^1.3.12"

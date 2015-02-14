@@ -1,0 +1,15 @@
+{
+  "defaults": {
+    "suiteName": "StyleStats Test Suite for sample.css",
+    "text": "{metric}: {actual} should be {operation} {expected}",
+    "operation": "<",
+    "reporter": "spec"
+  },
+  "results": {
+    "rules": 300,
+    "selectors": 300,
+    "idSelectors": 1,
+    "javascriptSpecificSelectors": 1,
+    "importantKeywords": 1
+  }
+}

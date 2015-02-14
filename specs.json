@@ -6,8 +6,8 @@
     "reporter": "spec"
   },
   "results": {
-    "rules": 300,
-    "selectors": 300,
+    "rules": 50,
+    "selectors": 50,
     "idSelectors": 1,
     "javascriptSpecificSelectors": 1,
     "importantKeywords": 1

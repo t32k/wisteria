@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wisteria.css: The best HTML-driven prototyping tool for designing in browser.</title>
+  <meta name="description" content="The best HTML-driven prototyping tool for designing in browser.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="http://t32k.me/wisteria/img/hero.jpg">
+  <link rel="canonical" href="http://t32k.me/wisteria/">
+  <link rel="stylesheet" href="css/html5-reset.css">
+  <link rel="stylesheet" href="css/wisteria.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body role="document">
+
+<header class="hero">
+  <div class="inner">
+    <h1 class="h1 u-ptl">Wisteria</h1>
+    <p class="u-fz4">The best HTML-driven prototyping tool for designing in browser.</p>
+    <p class="b u-mbx">v0.11.0</p>
+    <p><a href="https://github.com/t32k/wisteria/archive/master.zip" class="button">Download Wisteria</a></p>
+  </div>
+</header>
+
+<div class="container"><div class="inner">
+  <div class="u-mbm">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-related="kojismt">Tweet</a>
+  <iframe src="https://ghbtns.com/github-btn.html?user=t32k&repo=wisteria&type=star&count=true" frameborder="0" scrolling="0" width="170" height="20"></iframe></div>
+
+
+  <div class="g-row u-mbx u-tac">
+    <div class="g-col">
+      <img src="img/brush.svg" width="100" alt>
+      <div class="u-fz4 strong">Hi-Control</div>
+      <p class="u-tal">Wisteria's grid implements simple and modern <a
+          href="http://philipwalton.github.io/solved-by-flexbox/demos/grids/" class="b">Flexbox layout</a>, so you can make a mockup site with less typing rapidly.</p>
+    </div>
+    <div class="g-col">
+      <img src="img/box.svg" width="100" alt>
+      <div class="u-fz4 strong">Helper</div>
+      <p class="u-tal">Wisteria has a bunch of <a href="http://docs.emmet.io/cheat-sheet/" class="b">Emmet</a>-like utility classes. It means you do not have to learn the namig rules.</p>
+    </div>
+    <div class="g-col">
+      <img src="img/flask.svg" width="100" alt>
+      <div class="u-fz4 strong">Harmless</div>
+      <p class="u-tal">Wisteria does not destroy your web page style, because it has only class selectors. <a href="https://github.com/murtaugh/HTML5-Reset" class="b">HTML5-Reset</a> just resets the style.</p>
+    </div>
+  </div>
+
+  <div class="g-row u-mbx">
+    <div class="g-col u-mbm">
+      <p class="u-fll"><img src="img/t32k.jpg" width="80" height="80" class="img--oval" alt></p>
+      <blockquote class="blockquote comment"><p>Wisteria.css is a tool for design in the browser to make a mockup or personal projects not large system. You just focus on your HTML using utility classes.</p>
+        <footer class="small">- <a href="https://twitter.com/kojismt" class="b">Koji Ishimoto</a>, Web Developer</footer>
+      </blockquote>
+    </div>
+    <div class="g-col">
+      <p class="u-fll"><img src="img/hiloki.jpg" width="80" height="80" class="img--oval" alt></p>
+      <blockquote class="blockquote comment"><p>You can make a modern minimum web page in no time if you have some nice pictures, icons and Wistera.css. Without writing a lot of CSS.</p>
+        <footer class="small">- <a href="https://twitter.com/hiloki" class="b">Hiroki Tani</a>, Front-end Engineer</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="u-mbx u-tac">
+    <a href="https://github.com/t32k/wisteria" class="button button--outline u-fz5">View the GitHub project</a></div>
+
+
+  <h2 id="gettingstarted" class="h2 header"><a href="#gettingstarted"></a>Getting started</h2>
+  <section>
+    <p>Include the Wisteria.css and <a href="https://github.com/murtaugh/HTML5-Reset" class="b">HTML5-Reset.css</a> files in your site.</p>
+    <pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/html5-reset.css&quot;&gt;
+      &lt;link rel=&quot;stylesheet&quot; href=&quot;css/wisteria.css&quot;&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+  <h3 id="grids" class="h3 header u-mbm"><a href="#grids"></a>Grids</h3>
+  <section>
+    <div class="g-row">
+      <div class="g-col"><div class="block">1/6</div></div>
+      <div class="g-col"><div class="block">1/6</div></div>
+      <div class="g-col"><div class="block">1/6</div></div>
+      <div class="g-col"><div class="block">1/6</div></div>
+      <div class="g-col"><div class="block">1/6</div></div>
+      <div class="g-col"><div class="block">1/6</div></div>
+    </div>
+    <div class="g-row g-row--collapse">
+      <div class="g-col"><div class="block">1/3</div></div>
+      <div class="g-col"><div class="block">1/3</div></div>
+      <div class="g-col"><div class="block">1/3</div></div>
+    </div>
+
+    <div class="g-row g-row--center">
+      <div class="g-col"><div class="block" style="height:100px">1/2</div></div>
+      <div class="g-col"><div class="block">1/2</div></div>
+    </div>
+    <div class="g-row g-row--bottom">
+      <div class="g-col"><div class="block">1/3</div></div>
+      <div class="g-col"><div class="block">1/3</div></div>
+      <div class="g-col"><div class="block" style="height:100px">1/3</div></div>
+    </div>
+    <div class="g-row">
+      <div class="g-col"><div class="block">auto</div></div>
+      <div class="g-col u-w80"><div class="block">80%</div></div>
+    </div>
+    <pre><code class="html">&lt;div class=&quot;g-row&quot;&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/6&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/6&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/6&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/6&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/6&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/6&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!-- Without gutters --&gt;
+      &lt;div class=&quot;g-row g-row--collapse&quot;&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/3&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/3&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/3&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!-- Vertically Centered Grid Cells --&gt;
+      &lt;div class=&quot;g-row g-row--center&quot;&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/2&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/2&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!-- Bottom-aligned Grid Cells --&gt;
+      &lt;div class=&quot;g-row g-row--bottom&quot;&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/3&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/3&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;1/3&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!-- Individual Sizing --&gt;
+      &lt;div class=&quot;g-row&quot;&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col&quot;&gt;auto&lt;/div&gt;
+      &nbsp;&nbsp;&lt;div class=&quot;g-col u-w80&quot;&gt;80%&lt;/div&gt;
+      &lt;/div&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="typography" class="h3 header u-mbm"><a href="#typography"></a>Typography</h3>
+  <section>
+
+    <div class="h1">Header Text 1</div>
+    <div class="h2">Header Text 2</div>
+    <div class="h3">Header Text 3</div>
+    <div class="h4">Header Text 4</div>
+    <div class="h5">Header Text 5</div>
+    <div class="h6">Header Text 6</div>
+    <pre><code class="html">&lt;div class=&quot;h1&quot;&gt;Header Text 1&lt;/div&gt;
+      &lt;div class=&quot;h2&quot;&gt;Header Text 2&lt;/div&gt;
+      &lt;div class=&quot;h3&quot;&gt;Header Text 3&lt;/div&gt;
+      &lt;div class=&quot;h4&quot;&gt;Header Text 4&lt;/div&gt;
+      &lt;div class=&quot;h5&quot;&gt;Header Text 5&lt;/div&gt;
+      &lt;div class=&quot;h6&quot;&gt;Header Text 6&lt;/div&gt;</code></pre>
+    <p>You can also use it as a utility classes such as a <code class="code">class="u-fz[Number]"</code>.</p>
+
+    <pre><code class="css">.h1, .u-fz1 { font-size: 6.4rem; }
+      .h2, .u-fz2 { font-size: 4.8rem; }
+      .h3, .u-fz3 { font-size: 3.6rem; }
+      .h4, .u-fz4 { font-size: 2.4rem; }
+      .h5, .u-fz5 { font-size: 2.0rem; }
+      .h6, .u-fz6 { font-size: 1.8rem; }
+      .u-fz7 { font-size: 1.6rem; }&nbsp;&nbsp;/* Base font-size */
+      .u-fz8 { font-size: 1.4rem; }
+      .small, .u-fz9 { font-size: 1.2rem; }
+      .u-fz10 { font-size: 1rem; }</code></pre>
+
+    <h4 id="phrasing" class="h4 header u-mbm"><a href="#phrasing"></a>Phrasing content</h4>
+
+    <div class="u-mbm">Lorem ipsum <a href="#">anchor</a> amet, id his <span class="strong">strong</span> malorum, dictas euripidis pri et, at his <span class="weak">weak</span> dolorum. Eam in nihil elaboraret, eum facete <span class="del">delete</span> adversarium <span class="em">emphasize</span> quem odio. Ei recteque postulant persecuti vix. His id <span class="small">small</span> falli omnesque, dicam electram id est, his possim temporibus ei.</div>
+    <pre><code class="html">&lt;p&gt;
+      &nbsp;&nbsp;&lt;a href=&quot;#&quot;&gt;anchor&lt;/a&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;b&quot;&gt;bold&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;strong&quot;&gt;strong&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;weak&quot;&gt;weak&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;del&quot;&gt;delete&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;em&quot;&gt;emphasize&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;i&quot;&gt;italic&lt;/span&gt;
+      &nbsp;&nbsp;&lt;span class=&quot;small&quot;&gt;small&lt;/span&gt;
+      &lt;/p&gt;
+    </code></pre>
+    <p class="u-mbm"><span class="dummy"></span></p>
+    <p class="u-tov"><span class="dummy"></span></p>
+    <pre><code class="html">&lt;!-- // A pseudo-element(:after)　of .dummy has Lorem ipsum texts. --&gt;
+      &lt;p&gt;&lt;span class=&quot;dummy&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;p class=&quot;u-tov&quot;&gt;&lt;span class=&quot;dummy&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+    </code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="code" class="h3 header u-mbm"><a href="#code"></a>Code</h3>
+  <section>
+    <p class="u-mbm">This is <code class="code">.inline-code { color: grey }</code>.</p>
+    <pre class="pre"><code class="code nohighlight">function func() {
+      &nbsp;&nbsp;console.log('Hello World!');
+      }</code></pre>
+    <pre><code class="html">This is &lt;code class=&quot;code&quot;&gt;.inline-code { color: red }&lt;/code&gt;.
+
+      &lt;pre class=&quot;pre&quot;&gt;&lt;code class=&quot;code&quot;&gt;function func() {
+      &amp;nbsp;&amp;nbsp;console.log(&#039;Hello World!&#039;);
+      }&lt;/code&gt;&lt;/pre&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="tables" class="h3 header u-mbm"><a href="#tables"></a>Tables</h3>
+  <section>
+    <table class="table u-mbx">
+      <tr><th>Header</th>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+      <tr><th>Header</th>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+    </table>
+    <table class="table u-mbx">
+      <tr><th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+    </table>
+    <pre><code class="html">&lt;table class=&quot;table&quot;&gt;
+      &nbsp;&nbsp;&lt;tr&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header&lt;/th&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&lt;/tr&gt;
+      &nbsp;&nbsp;&lt;tr&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header&lt;/th&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;table class=&quot;table&quot;&gt;
+      &nbsp;&nbsp;&lt;tr&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header&lt;/th&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header&lt;/th&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header&lt;/th&gt;
+      &nbsp;&nbsp;&lt;/tr&gt;
+      &nbsp;&nbsp;&lt;tr&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data&lt;/td&gt;
+      &nbsp;&nbsp;&lt;/tr&gt;
+      &lt;/table&gt;</code></pre>
+  </section>
+
+  <hr class="hr u-mtx u-mbx">
+
+  <h3 id="forms" class="h3 header u-mbm"><a href="#forms"></a>Forms</h3>
+  <section>
+    <input type="checkbox" class="checkbox">Checkbox
+    <pre class="u-mbx"><code class="html">&lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot;&gt;Checkbox&lt;/div&gt;</code></pre>
+
+    <input type="email" placeholder="test@mail.com" class="input">
+    <pre class="u-mbx"><code class="html">&lt;input type=&quot;email&quot; placeholder=&quot;test@mail.com&quot; class=&quot;input&quot;&gt;&lt;/div&gt;</code></pre>
+
+    <textarea class="textarea" placeholder="Hi.."></textarea>
+    <pre class="u-mbx"><code class="html">&lt;textarea placeholder=&quot;Hi..&quot; class=&quot;textarea&quot;&gt;&lt;/textarea&gt;</code></pre>
+
+    <select class="select">
+      <option value="Option01">Option 01</option>
+      <option value="Option02">Option 02</option>
+      <option value="Option03">Option 03</option>
+    </select>
+    <pre><code class="html">&lt;select class=&quot;select&quot;&gt;
+      &nbsp;&nbsp;&lt;option value=&quot;Option01&quot;&gt;Option 01&lt;/option&gt;
+      &nbsp;&nbsp;&lt;option value=&quot;Option02&quot;&gt;Option 02&lt;/option&gt;
+      &nbsp;&nbsp;&lt;option value=&quot;Option03&quot;&gt;Option 03&lt;/option&gt;
+      &lt;/select&gt;
+    </code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="buttons" class="h3 header u-mbm"><a href="#buttons"></a>Buttons</h3>
+  <section>
+    <div class="u-mbm">
+      <a href="#" class="button">Link</a>
+      <button class="button">Button</button>
+      <input type="submit" class="button" value="Submit">
+    </div>
+    <div class="u-mbm">
+      <a href="#" class="button button--outline">Link</a>
+      <button class="button button--outline">Button</button>
+      <input type="submit" class="button button--outline" value="Submit">
+    </div>
+    <pre><code class="html">&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;Link&lt;/a&gt;
+      &lt;button class=&quot;button&quot;&gt;Button&lt;/button&gt;
+      &lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;Submit&quot;&gt;
+
+      &lt;a href=&quot;#&quot; class=&quot;button button--outline&quot;&gt;Link&lt;/a&gt;
+      &lt;button class=&quot;button button--outline&quot;&gt;Button&lt;/button&gt;
+      &lt;input type=&quot;submit&quot; class=&quot;button button--outline&quot; value=&quot;Submit&quot;&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="images" class="h3 header u-mbm"><a href="#images"></a>Images</h3>
+  <section>
+    <div class="g-row">
+      <div class="g-col"><img src="img/light.jpg" alt></div>
+      <div class="g-col"><img src="img/light.jpg" alt></div>
+    </div>
+    <pre class="u-mbx"><code class="html">&lt;!-- HTML5-Reset.css specifies img { max-width: 100% } --&gt;
+          &lt;img src=&quot;light.jpg&quot; alt&gt;</code></pre>
+    <div class="g-row u-tac">
+      <div class="g-col"><img src="img/typewriter.jpg" width="100" height="100" alt></div>
+      <div class="g-col"><img class="img--placeholder" width="100" height="100"></div>
+      <div class="g-col"><img src="img/typewriter.jpg" width="100" height="100" class="img--oval" alt></div>
+      <div class="g-col"><img class="img--placeholder img--oval" width="100" height="100"></div>
+    </div>
+    <pre><code class="html">&lt;img src=&quot;typewriter.jpg&quot; width=&quot;100&quot; height=&quot;100&quot; alt&gt;
+      &lt;img width=&quot;100&quot; height=&quot;100&quot; class=&quot;img--placeholder&quot; alt&gt;
+      &lt;img src=&quot;typewriter.jpg&quot; width=&quot;100&quot; height=&quot;100&quot; class=&quot;img--oval&quot; alt&gt;
+      &lt;img width=&quot;100&quot; height=&quot;100&quot; class=&quot;img--placeholder img--oval&quot; alt&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="lists" class="h3 header u-mbm"><a href="#lists"></a>Lists</h3>
+  <section>
+    <ul class="ul">
+      <li>Unordered List item</li>
+      <li>item
+        <ul class="ul">
+          <li>second item</li>
+          <li>second item</li>
+        </ul>
+      </li>
+      <li>item</li>
+    </ul>
+    <pre><code class="html">&lt;ul class=&quot;ul&quot;&gt;
+      &nbsp;&nbsp;&lt;li&gt;Unordered List item&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;ul&quot;&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+      &nbsp;&nbsp;&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item&lt;/li&gt;
+      &lt;/ul&gt;</code></pre>
+    <ol class="ol">
+      <li>Ordered List item</li>
+      <li>item
+        <ul class="ol">
+          <li>second item</li>
+          <li>second item
+            <ul class="ul">
+              <li>third item</li>
+              <li>third item</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>item</li>
+    </ol>
+    <pre><code class="html">&lt;ol class=&quot;ol&quot;&gt;
+      &nbsp;&nbsp;&lt;li&gt;>Ordered List item&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;ol&quot;&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;second item
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class=&quot;ul&quot;&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;third item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;third item&lt;/li&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;
+      &nbsp;&nbsp;&lt;/ul&gt;
+      &nbsp;&nbsp;&lt;/li&gt;
+      &nbsp;&nbsp;&lt;li&gt;item&lt;/li&gt;
+      &lt;/ol&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="blockquote" class="h3 header u-mbm"><a href="#blockquote"></a>Blockquote</h3>
+  <section>
+    <blockquote class="blockquote u-mbm">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    </blockquote>
+    <pre><code class="html">&lt;blockquote class=&quot;blockquote&quot;&gt;
+      &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+      &lt;/blockquote&gt;
+    </code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="horizontalrule" class="h3 header u-mbm"><a href="#horizontalrule"></a>Horizontal Rule</h3>
+  <section>
+    <hr class="hr u-mbl">
+    <hr class="hr hr--dashed u-mbl">
+    <pre><code class="html">&lt;hr class=&quot;hr&quot;&gt;
+      &lt;hr class=&quot;hr hr--dashed&quot;&gt;</code></pre>
+  </section>
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="colors" class="h3 header u-mbm"><a href="#colorse"></a>Colors</h3>
+  <section>
+
+    <div class="u-tac small">
+    <div class="g-row g-row--collapse box">
+      <div class="g-col u-bgc1--light">C1 Red Light</div>
+      <div class="g-col u-bgc2--light">C2 Blue Light</div>
+      <div class="g-col u-bgc3--light">C3 Green Light</div>
+      <div class="g-col u-bgc4--light">C4 Yellow Light</div>
+      <div class="g-col u-bgc5--light">C5 Grey Light</div>
+    </div>
+    <div class="g-row g-row--collapse box">
+      <div class="g-col u-bgc1">C1 Red</div>
+      <div class="g-col u-bgc2">C2 Blue</div>
+      <div class="g-col u-bgc3">C3 Green</div>
+      <div class="g-col u-bgc4">C4 Yellow </div>
+      <div class="g-col u-bgc5">C5 Grey</div>
+    </div>
+    <div class="g-row g-row--collapse box">
+      <div class="g-col u-bgc1--dark u-c5--light">C1 Red Dark</div>
+      <div class="g-col u-bgc2--dark u-c5--light">C2 Blue Dark</div>
+      <div class="g-col u-bgc3--dark u-c5--light">C3 Green Dark</div>
+      <div class="g-col u-bgc4--dark u-c5--light">C4 Yellow Dark</div>
+      <div class="g-col u-bgc5--dark u-c5--light">C5 Grey Dark</div>
+    </div>
+    </div>
+
+    <pre><code class="html">&lt;!-- You can specify number to choose a color. --&gt;
+      &lt;div class=&quot;u-c1&quot;&gt;C1 Red Color&lt;/div&gt;
+      &lt;div class=&quot;u-bgc1&quot;&gt;C1 Red Backgroud-Color&lt;/div&gt;
+      &lt;div class=&quot;u-bdc1&quot;&gt;C1 Red Border-Color&lt;/div&gt;
+
+      &lt;div class=&quot;u-c1--light&quot;&gt;C1 Red Light Color&lt;/div&gt;
+      &lt;div class=&quot;u-bgc1-light&quot;&gt;C1 Red Light Backgroud-Color&lt;/div&gt;
+      &lt;div class=&quot;u-bdc1-light&quot;&gt;C1 Red Light Border-Color&lt;/div&gt;
+
+      &lt;div class=&quot;u-c1--dark&quot;&gt;C1 Red Dark Color&lt;/div&gt;
+      &lt;div class=&quot;u-bgc1-dark&quot;&gt;C1 Red Dark Backgroud-Color&lt;/div&gt;
+      &lt;div class=&quot;u-bdc1-dark&quot;&gt;C1 Red Dark Border-Color&lt;/div&gt;</code></pre>
+  </section>
+
+
+  <hr class="hr u-mtx u-mbx">
+
+
+  <h3 id="utilities" class="h3 header u-mbm"><a href="#utilities"></a>Utilities</h3>
+  <p><a href="https://github.com/t32k/wisteria/blob/master/wisteria.css">All utilities classes</a> on GitHub.</p>
+  <section class="g-row">
+    <div class="g-col"> <pre><code class="css">/*	#Spacing
+      \*------------------------------------*/
+      .u-ma { margin: auto; }
+      .u-mtn { margin-top: 0; }
+      .u-mts { margin-top: .4rem; }
+      .u-mtm { margin-top: 1.6rem; }
+      .u-mtl { margin-top: 3.2rem; }
+      .u-mtx { margin-top: 4.8rem; }
+      .u-mbn { margin-bottom: 0; }
+      .u-mbs { margin-bottom: .4rem; }
+      .u-mbm { margin-bottom: 1.6rem; }
+      .u-mbl { margin-bottom: 3.2rem; }
+      .u-mbx { margin-bottom: 4.8rem; }
+      .u-mn { margin: 0; }
+
+      .u-ptn { padding-top: 0; }
+      .u-pts { padding-top: .4rem; }
+      .u-ptm { padding-top: 1.6rem; }
+      .u-ptl { padding-top: 3.2rem; }
+      .u-ptx { padding-top: 4.8rem; }
+      .u-pbn { padding-bottom: 0; }
+      .u-pbs { padding-bottom: .4rem; }
+      .u-pbm { padding-bottom: 1.6rem; }
+      .u-pbl { padding-bottom: 3.2rem; }
+      .u-pbx { padding-bottom: 4.8rem; }
+      .u-pn { padding: 0; }
+
+      .u-tac { text-align: center; }
+      .u-tal { text-align: left; }
+      .u-tar { text-align: right; }
+
+      .u-ttc { text-transform: capitalize; }
+      .u-ttu { text-transform: uppercase; }
+      .u-ttl { text-transform: lowercase; }
+</code></pre></div>
+    <div class="g-col"> <pre><code class="css">.u-cf {
+      display: table;
+      clear: both;
+      content: ""; }
+      .u-tov {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+
+      .u-fln { float: none; }
+      .u-fll { float: left; }
+      .u-flr { float: right; }
+
+      .u-dn { display: none; }
+      .u-di { display: inline; }
+      .u-db { display: block; }
+      .u-vh { visibility: hidden; }
+
+      .u-w10 { width: 10%; }
+      .u-w20 { width: 20%; }
+      .u-w25 { width: 25%; }
+      .u-w30 { width: 30%; }
+      .u-w33 { width: 33%; }
+      .u-w35 { width: 35%; }
+      .u-w40 { width: 40%; }
+      .u-w50 { width: 50%; }
+      .u-w60 { width: 60%; }
+      .u-w65 { width: 65%; }
+      .u-w66 { width: 66%; }
+      .u-w70 { width: 70%; }
+      .u-w75 { width: 75%; }
+      .u-w80 { width: 80%; }
+      .u-w90 { width: 90%; }
+      .u-w100 { width: 100%; }</code></pre></div>
+  </section>
+
+  <hr class="hr u-mtx u-mbm">
+
+</div></div><!-- // .container -->
+
+<footer class="u-tac">
+  <ul class="ul ul--inline u-mbm">
+    <li><a href="http://t32k.me/wisteria/">Home</a> | </li>
+    <li><a href="https://github.com/t32k/wisteria">GitHub</a> | </li>
+    <li><a href="https://github.com/t32k/wisteria/issues">Issues</a></li>
+    <li><a href=""></a></li>
+  </ul>
+  <p class="u-mbs small">Photo credit: <a href="https://www.flickr.com/photos/davidw/434602781">Wisteria Bunch - David</a></p>
+  <p class="u-mbx small" role="contentinfo">Wisteria.css is a project by <a href="https://github.com/t32k">Koji Ishimoto</a></p>
+</footer>
+
+<script src="js/highlight.pack.js"></script>
+<script>
+  // Syntax Hilight
+  hljs.initHighlightingOnLoad();
+  // Twitter
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2317436-26', 't32k.me');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
